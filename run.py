@@ -264,3 +264,21 @@ def play_game(word):
             p("Oh my GOD !!! Gerry has melted !!!\n")
             print_hidden_word(f"The word you were trying to guess was {word}\n".center(width))
             restart_game(player_name)
+
+def restart_game(player_name):
+    """
+    Ask user if they want to start new game
+    """
+    while True:
+        user_input = input(
+            "Would you like to play again? [Y]ES/[N]O\n".center(width)).upper()
+        if user_input == "Y":
+            clear_header()
+            word_category_selection()
+        elif user_input == "N":
+            clear_header()
+            menu(player_name)
+        else:
+            clear_header()
+            print_error_message("Invalid choice, please "
+                                "try again.\n".center(width))
