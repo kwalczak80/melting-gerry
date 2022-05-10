@@ -62,3 +62,31 @@ def clear_header():
     """
     clear_screen()
     display_game_name()
+
+def print_error_message(text):
+    """
+    Prints error message in red color
+    """
+    print(f"{bcolors.FAIL}{text}{bcolors.ENDC}")
+    
+
+def print_correct_guess(correct_guess_text):
+    """
+    Prints text in green color is user guessed the letter or word correctly
+    """
+    print(f"{bcolors.OKGREEN}{correct_guess_text}{bcolors.ENDC}")
+    
+
+def print_incorrect_guess(incorrect_guess_text):
+    """
+    Prints text in yellow color is user guessed the letter or word incorrectly
+    """
+    print(f"{bcolors.WARNING}{incorrect_guess_text}{bcolors.ENDC}")
+    
+
+def print_hidden_word(hidden_word):
+    """
+    Prints text in yellow color is user guessed the letter or word incorrectly
+    """
+    print(f"{bcolors.OKBLUE}{hidden_word}{bcolors.ENDC}")
+    
