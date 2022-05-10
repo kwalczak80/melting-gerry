@@ -216,3 +216,51 @@ def exit_game():
     p("Thank you for playing the Snowman game.")
     p("See you next time !!")
     sys.exit()
+
+def play_game(word):
+    table = list(word)
+    used_letters = []
+    number_of_tries = 6
+    for i in range(len(word)):
+        table[i] = "_"
+    while number_of_tries > 0:
+        p(display_snowman[number_of_tries])
+        p(f"You have {number_of_tries} attempts to save Gerry's life.")
+        print()
+        print(" ".join(table).center(width))
+        print()
+        p(f"Used letters : {used_letters}")
+        letter = input("Please enter a "
+                       "letter:\n".center(width)).upper().strip()
+        clear_header()
+        if len(letter) != 1:
+            print_error_message("Please enter only "
+                                "one letter at a time".center(width))
+        elif letter in used_letters:
+            print_error_message(f"[{letter}] letter "
+                                "is already used !!".center(width))
+        elif not letter.isalpha():
+            print_error_message(f"[{letter}] is not a letter".center(width))
+        else:
+            used_letters.append(letter)
+            if letter in word:
+                print_correct_guess("YES !!! You have guessed "
+                                    "the letter correctly.".center(width))
+                for i in range(len(word)):
+                    if word[i] == letter:
+                        table[i] = letter
+            else:
+                number_of_tries -= 1
+                print_incorrect_guess(f"[{letter}] letter is "
+                                      "not in the word".center(width))
+        if "".join(map(str, table)) == word:
+            clear_header()
+            print_correct_guess("Fantastic !! You have guessed "
+                                "the word\n".center(width))
+            restart_game(player_name)
+        elif number_of_tries == 0:
+            clear_screen()
+            p(display_snowman[0])
+            p("Oh my GOD !!! Gerry has melted !!!\n")
+            print_hidden_word(f"The word you were trying to guess was {word}\n".center(width))
+            restart_game(player_name)
