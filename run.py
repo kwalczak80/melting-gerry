@@ -140,3 +140,46 @@ def menu(player_name):
         elif user_input == "E":
             clear_screen()
             exit_game()
+
+
+def word_category_selection():
+    """
+    Function to select a category from which the word will be guessed
+    """
+    
+    while True:
+        clear_screen()
+        p("Please select a category from "
+          "which you will be guessing the word.\n")
+        p("1. Animals\n")
+        p("2. Job and occupation\n")
+        p("3. Fruit\n")
+        p("4. Food\n")
+        p("5. Colors\n")
+        player_choice = input("Alternatively, press E "
+                              "to exit\n".center(width)).upper()
+        if player_choice == '1':
+            word = str(animal_words[random.randint(0, len(animal_words) - 1)])
+            clear_header()
+            play_game(word)
+        elif player_choice == '2':
+            word = str(job_and_occupation_words
+                       [random.randint(0, len(job_and_occupation_words) - 1)])
+            clear_header()
+            play_game(word)
+        elif player_choice == '3':
+            word = str(fruit_words[random.randint(0, len(fruit_words) - 1)])
+            clear_header()
+            play_game(word)
+        elif player_choice == '4':
+            word = str(food_words[random.randint(0, len(food_words) - 1)])
+            clear_header()
+            play_game(word)
+        elif player_choice == '5':
+            word = str(color_words[random.randint(0, len(color_words) - 1)])
+            clear_header()
+            play_game(word)
+        elif player_choice == "E":
+            menu(player_name)
+        else:
+            p("Please choose a valid option from the menu!")
