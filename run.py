@@ -54,3 +54,11 @@ def display_game_name():
     p(" \___ \|     | |  | |\ \/  \/ / | |\/| | / /\ \ |     |")
     p(" ____) | |\  | |__| | \  /\  /  | |  | |/ ____ \| |\  |")
     p("|_____/|_| \_|\____/   \/  \/   |_|  |_/_/    \_|_| \_|\n")
+
+
+def clear_header():
+    """
+    calls to clear screen and display game name
+    """
+    clear_screen()
+    display_game_name()
