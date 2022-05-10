@@ -42,3 +42,15 @@ def clear_screen(numlines=100):
     else:
         # Fallback for other operating systems.
         print('\n' * numlines)
+
+
+def display_game_name():
+    """
+    Display the game name
+    """
+    p("  _____ _   _  ______          ____  __          _   _ ")
+    p(" / ____| \ | |/ __ \ \        / |  \/  |   /\   | \ | |")
+    p("| (___ |  \| | |  | \ \  /\  / /| \  / |  /  \  |  \| |")
+    p(" \___ \|     | |  | |\ \/  \/ / | |\/| | / /\ \ |     |")
+    p(" ____) | |\  | |__| | \  /\  /  | |  | |/ ____ \| |\  |")
+    p("|_____/|_| \_|\____/   \/  \/   |_|  |_/_/    \_|_| \_|\n")
