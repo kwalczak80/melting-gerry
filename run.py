@@ -282,3 +282,13 @@ def restart_game(player_name):
             clear_header()
             print_error_message("Invalid choice, please "
                                 "try again.\n".center(width))
+
+
+def melting_gerry_game():
+    clear_screen()
+    display_game_name()
+    player_name = get_player_name()
+    menu(player_name)
+
+
+melting_gerry_game()
