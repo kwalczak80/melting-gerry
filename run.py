@@ -89,4 +89,28 @@ def print_hidden_word(hidden_word):
     Prints text in yellow color is user guessed the letter or word incorrectly
     """
     print(f"{bcolors.OKBLUE}{hidden_word}{bcolors.ENDC}")
-    
+
+def get_player_name():
+    """
+    Validates user name before game commence
+    """
+    global player_name    
+    while True:
+        player_name = input("Please enter your name:\n".center(width)).strip()
+        if player_name == "":
+            clear_header()
+            print_error_message("The player name cannot "
+                                "be blank !!\n".center(width))        
+        elif not player_name.isalpha():
+            clear_header()
+            print_error_message("The player name may only "
+                                "contain alphabetic "
+                                "characters.\n".center(width))
+        elif (len(player_name) > 20):
+            clear_header()
+            print_error_message("The player name is too long"
+                                "- max 20 characters !!\n".center(width))
+        else:
+            clear_screen()
+            break
+    return player_name    
