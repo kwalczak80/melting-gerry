@@ -20,3 +20,10 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
+def p(text):
+    """
+    Function to print text
+    in the middle of console.
+    """
+    print(f"{text}".center(width))
