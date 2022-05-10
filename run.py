@@ -207,3 +207,12 @@ def display_instructions():
                       " pressing the enter button\n".center(width))
 
 
+def exit_game():
+    """
+    Display 'thank you' information
+    and exit game
+    """
+    p(f"Bye bye {player_name}\n")
+    p("Thank you for playing the Snowman game.")
+    p("See you next time !!")
+    sys.exit()
