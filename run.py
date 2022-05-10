@@ -183,3 +183,27 @@ def word_category_selection():
             menu(player_name)
         else:
             p("Please choose a valid option from the menu!")
+
+
+def display_instructions():
+    """
+    Function to display game instructions
+    with option to return to main menu
+    """
+    display_game_name()
+    p("Choose a category from which you will be guessing the word.\n")
+    p("Try to guess the hidden letters.\n")
+    p("As long as you guess correctly, Gerry the Snowman will remain safe.\n")
+    p("On the other hand, if you guess incorrectly, Gerry will start melting !!!\n")
+    p("You have six attempts to save Gerry's life.\n")
+    p("Best of luck!\n")
+    while True:
+        enter_input = input("Press ENTER to go back\n".center(width)).upper()
+        if enter_input == "":
+            menu(player_name)
+        else:
+            clear_header()
+            print_error_message("You have typed some text before"
+                      " pressing the enter button\n".center(width))
+
+
