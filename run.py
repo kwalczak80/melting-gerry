@@ -113,4 +113,30 @@ def get_player_name():
         else:
             clear_screen()
             break
-    return player_name    
+    return player_name
+
+
+def menu(player_name):
+    """
+    Display the welcome message and the menu.
+    """
+    while True:
+        clear_header()
+        p(f"Welcome {player_name}\n")
+        p("***    Menu    ***\n")
+        p("Play game\n")
+        p("Instructions how to play\n")
+        p("Exit\n")
+        p("Press P to play game or I to read"
+          " instructions how to play.\n")
+        user_input = input("Alternatively press "
+                           "E to exit the game.\n".center(width)).upper()
+        if user_input == "P":
+            clear_header()
+            word_category_selection()
+        elif user_input == "I":
+            clear_screen()
+            display_instructions()
+        elif user_input == "E":
+            clear_screen()
+            exit_game()
