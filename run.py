@@ -150,9 +150,7 @@ def word_category_selection():
     """
     Function to select a category from which the word will be guessed
     """
-    
     while True:
-        clear_screen()
         p("Please select a category from "
           "which you will be guessing the word.\n")
         p("1. Animals\n")
@@ -186,7 +184,9 @@ def word_category_selection():
         elif player_choice == "E":
             menu(player_name)
         else:
-            p("Please choose a valid option from the menu!")
+            clear_header()
+            print_error_message("Please choose a valid option "
+                                "from the menu below !\n".center(width))
 
 
 def display_instructions():
@@ -208,7 +208,7 @@ def display_instructions():
         else:
             clear_header()
             print_error_message("You have typed some text before"
-                      " pressing the enter button\n".center(width))
+                                " pressing the enter button\n".center(width))
 
 
 def exit_game():
