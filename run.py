@@ -120,8 +120,8 @@ def menu(player_name):
     """
     Display the welcome message and the menu.
     """
+    clear_header()
     while True:
-        clear_header()
         p(f"Welcome {player_name}\n")
         p("***    Menu    ***\n")
         p("Play game\n")
@@ -135,11 +135,15 @@ def menu(player_name):
             clear_header()
             word_category_selection()
         elif user_input == "I":
-            clear_screen()
+            clear_header()
             display_instructions()
         elif user_input == "E":
             clear_screen()
             exit_game()
+        else:
+            clear_header()
+            print_error_message("Please choose a valid option "
+                                "from the menu below !\n".center(width))
 
 
 def word_category_selection():
@@ -264,6 +268,7 @@ def play_game(word):
             p("Oh my GOD !!! Gerry has melted !!!\n")
             print_hidden_word(f"The word you were trying to guess was {word}\n".center(width))
             restart_game(player_name)
+
 
 def restart_game(player_name):
     """
