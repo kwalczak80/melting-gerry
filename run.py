@@ -194,21 +194,24 @@ def display_instructions():
     Function to display game instructions
     with option to return to main menu
     """
-    display_game_name()
-    p("Choose a category from which you will be guessing the word.\n")
+    p("Select a category from which you will be guessing the word.\n")
     p("Try to guess the hidden letters.\n")
-    p("As long as you guess correctly, Gerry the Snowman will remain safe.\n")
-    p("On the other hand, if you guess incorrectly, Gerry will start melting !!!\n")
+    p("If you guess correctly, the letter will appear on the "
+      "screen and \n")
+    p("Gerry the snowman will be safe.\n")
+    p("However, if you guess incorrectly Gerry will start melting !!!\n")
     p("You have six attempts to save Gerry's life.\n")
     p("Best of luck!\n")
     while True:
-        enter_input = input("Press ENTER to go back\n".center(width)).upper()
-        if enter_input == "":
+        enter_input = input("Press P to play the game or E return to main menu\n".center(width)).upper()
+        if enter_input == "P":
+            clear_header()
+            word_category_selection()
+        elif enter_input == "E":
             menu(player_name)
         else:
             clear_header()
-            print_error_message("You have typed some text before"
-                                " pressing the enter button\n".center(width))
+            print_error_message("Please choose a valid option\n".center(width))
 
 
 def exit_game():
@@ -220,6 +223,7 @@ def exit_game():
     p("Thank you for playing the Snowman game.")
     p("See you next time !!")
     sys.exit()
+
 
 def play_game(word):
     table = list(word)
