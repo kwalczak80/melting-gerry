@@ -263,8 +263,9 @@ def play_game(word):
                                       "not in the word".center(width))
         if "".join(map(str, table)) == word:
             clear_header()
-            print_correct_guess("Fantastic !! You have guessed "
-                                "the word\n".center(width))
+            print_correct_guess("Fantastic !!! You have guessed "
+                                f"the word {word} correctly.\n".center(width))
+            print_correct_guess("Gerry the snowman is safe thanks to you.\n".center(width))
             restart_game(player_name)
         elif number_of_tries == 0:
             clear_screen()
