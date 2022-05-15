@@ -58,11 +58,10 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Word not guessed](docs/screenshots/word_not_guessed_message.PNG)
 ### **Artwork**
-
-    The main “Snowman” logo was created using the [Text to ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN) with some small modifications from the originally generated artwork.
+* The main “Snowman” logo was created using the [Text to ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN) with some small     modifications from the originally generated artwork.
     ![Main Logo](docs/screenshots/main_logo.PNG)
 
-    The artwork of Gerry the Snowman is a mix of two artworks found on [ASCII Art](https://www.asciiart.eu/holiday-and-events/christmas/snowmen)
+* The artwork of Gerry the Snowman is a mix of two artworks found on [ASCII Art](https://www.asciiart.eu/holiday-and-events/christmas/snowmen)
     * Art by Hayley Jane Wakenshaw
     * Art by jb
 
@@ -77,6 +76,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 ### **User Name**
 * Once the program has been executed, the welcome screen is displayed informing the user about the game name.
 * The user is asked to enter their name before the game starts.
+
+    ![Enter User Name](docs/screenshots/enter_user_name_screen.PNG)
 
 
 
