@@ -7,8 +7,6 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ![Flow chart](docs/screenshots/flow_chart_of_melting_gerry_game.png)
 
-<a></a>
-
 ## **User Experience (UX)**
 
 ### **User Goals**
