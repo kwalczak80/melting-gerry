@@ -7,6 +7,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ![Flow chart](docs/screenshots/flow_chart_of_melting_gerry_game.png)
 
+---
+
 ## **User Experience (UX)**
 
 ### **User Goals**
@@ -27,3 +29,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * As a user, I want to have the option to choose different word categories.
 * As a user, I want to try to guess words of varying difficulty levels.
 * As a user, I want to know the word I was trying to guess when the game is over.
+
+### **Site owners Goals**
+* To have an easy-to-navigate and entertaining website where users can spend some time enjoying the Melting Gerry game.
+* To have different word categories so the user can have an option to try to guess different words.
+* To have an algorithm in the code that can handle all the user inputs.
+* To have enough words to guess in each category to entertain the user for a long time.
