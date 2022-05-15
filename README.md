@@ -105,6 +105,26 @@ Creating a flowchart helped me find less obvious features of the program's algor
 ### **Instructions how to play**
 * Once the user selects to read the game instructions, the following screen will be displayed in the console window. The game instructions are very simple and easy to follow.
 
+    ![Game Instructions](docs/screenshots/game_instructions.PNG)
+* When the user is familiar with game instructions, they have two options:
+    * Play the game by pressing the “P” key.
+    * Return to the main menu by pressing the “E” key.
+* If the user chooses a different option, a message will be displayed on the screen asking them to select a valid option.
+    ![Game Instructions Choose Valid Option](docs/screenshots/game_instructions_choose_valid_option.PNG)
+
+### **Play game**
+* Before the game starts, the user will be asked to choose a category from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
+* Currently, in the game, there are five-word categories to choose from:
+    * Animals
+    * Job and occupation
+    * Fruit
+    * Food
+    * Colors
+    
+    ![Category Selection](docs/screenshots/category_selection.PNG)
+
+
+
 
 
 
