@@ -97,10 +97,15 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Read instructions on how to play
     * Exit game
 
-        Short text information is displayed below the menu, informing which key needs to be pressed to select each option.        
-        If the user presses other keys than “P”, “I” or "E", then a message will be displayed to correctly enter one of the available options.
+    Short text information is displayed below the menu, informing which key needs to be pressed to select each option.        
+    If the user presses other keys than “P”, “I” or "E", then a message will be displayed to correctly enter one of the available options.
 
     ![Menu Not Valid Option Selected](docs/screenshots/menu_not_valid_option_selected.PNG)
+
+### **Instructions how to play**
+* Once the user selects to read the game instructions, the following screen will be displayed in the console window. The game instructions are very simple and easy to follow.
+
+
 
 
 
