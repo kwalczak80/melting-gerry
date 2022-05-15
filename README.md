@@ -78,6 +78,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * The user is asked to enter their name before the game starts.
 
     ![Enter User Name](docs/screenshots/enter_user_name_screen.PNG)
+* Only alphabetical characters are allowed when entering the user name. Special characters, numbers, etc., will not be accepted.
+    ![Player Name Not Alphabet Letters](docs/screenshots/player_name_alphabet_characters_only.PNG)
+
 
 
 
