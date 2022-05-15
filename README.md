@@ -56,8 +56,19 @@ Creating a flowchart helped me find less obvious features of the program's algor
     ![Game won](docs/screenshots/game_won_message.PNG)
     * The blue color was used to display information when the game is over and the word is not guessed correctly.
 
-    ![Word](docs/screenshots/word_not_guessed_message.PNG)
-* Art
+    ![Word not guessed](docs/screenshots/word_not_guessed_message.PNG)
+* Artwork
+
+    The main “Snowman” logo was created using the [Text to ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN) with some small modifications from the originally generated artwork.
+    ![Main Logo](docs/screenshots/main_logo.PNG)
+
+    The art of Gerry the Snowman is a mix of two artworks found on [ASCII Art](https://www.asciiart.eu/holiday-and-events/christmas/snowmen)
+    * Art by Hayley Jane Wakenshaw
+    * Art by jb
+
+    ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.PNG)
+
+
 
 
 
