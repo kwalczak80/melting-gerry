@@ -65,7 +65,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Art by Hayley Jane Wakenshaw
     * Art by jb
 
-    The final artwork was created by myself from two artworks mentioned above.
+    The final artwork was created by myself by using two artworks mentioned above.
 
     ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.PNG)
 
@@ -110,6 +110,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Play the game by pressing the “P” key.
     * Return to the main menu by pressing the “E” key.
 * If the user chooses a different option, a message will be displayed on the screen asking them to select a valid option.
+
     ![Game Instructions Choose Valid Option](docs/screenshots/game_instructions_choose_valid_option.PNG)
 
 ### **Play game**
@@ -120,8 +121,20 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Fruit
     * Food
     * Colors
-    
+
     ![Category Selection](docs/screenshots/category_selection.PNG)
+
+* If the user selects a different option than is available, the following message will be displayed in the console.
+
+    ![Category Selection Invalid Choice](docs/screenshots/category_selection_invalid_choice.PNG)
+* If the user decides to press the “E” key the main menu will be displayed again in the console.
+* If the correct category is selected by the user, the main game screen will be displayed.
+
+    ![Main Game Screen](docs/screenshots/main_game_screen.PNG)
+
+
+
+
 
 
 
