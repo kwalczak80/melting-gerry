@@ -79,16 +79,29 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Enter User Name](docs/screenshots/enter_user_name_screen.PNG)
 * Only alphabetical characters are allowed when entering the user name. Special characters, numbers, etc., will not be accepted.
+
     ![Player Name Not Alphabet Letters](docs/screenshots/player_name_alphabet_characters_only.PNG)
 * In addition, the user name cannot be longer than 20 letters.
+
     ![Player Name Too Long](docs/screenshots/player_name-max_20_characters.PNG)
 * If the user name has an incorrect format (blank), an appropriate message will be displayed on the screen.
+
     ![Player Name Blank](docs/screenshots/player_name-blank.PNG)
 
 ### **Menu**
 * Once the player's name is entered, the game menu is displayed on the screen. To achieve a better user experience, I decided to have all the text information displayed in the middle of the console, which in my opinion, looks very nice.
 
     ![Menu](docs/screenshots/menu.PNG)
+* At this stage the user has three options:
+    * Play game
+    * Read instructions on how to play
+    * Exit game
+
+        Short text information is displayed below the menu, informing which key needs to be pressed to select each option.        
+        If the user presses other keys than “P”, “I” or "E", then a message will be displayed to correctly enter one of the available options.
+
+    ![Menu Not Valid Option Selected](docs/screenshots/menu_not_valid_option_selected.PNG)
+
 
 
 
