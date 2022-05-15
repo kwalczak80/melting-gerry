@@ -85,6 +85,12 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If the user name has an incorrect format (blank), an appropriate message will be displayed on the screen.
     ![Player Name Blank](docs/screenshots/player_name-blank.PNG)
 
+### **Menu**
+* Once the player's name is entered, the game menu is displayed on the screen. To achieve a better user experience, I decided to have all the text information displayed in the middle of the console, which in my opinion, looks very nice.
+
+    ![Menu](docs/screenshots/menu.PNG)
+
+
 
 
 
