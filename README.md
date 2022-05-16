@@ -198,6 +198,29 @@ Due to the current security breach in Heroku, the following steps were taken to 
 * Enter “heroku git: remote -a melting-gerry” to remotely connect the application with the Gitpod terminal.
 * Once the code is ready to be deployed enter “git push heroku main” in the console to deploy to Heroku.
 
+---
+
+## **Technologies Used**
+
+### **Languages**
+* [Python](https://www.python.org/)
+
+### **Tools**
+* [Github](https://github.com/)
+    * Used to store all the project files written in Gitpod.
+* [GitPod](https://www.gitpod.io/) 
+    * Used for writing the code, committing, and pushing to GitHub. Gitpod terminal was also used to deploy the project to Heroku.
+* [PEP8 validator](http://pep8online.com/)
+    * Used to validate the python code.
+* [VS Code](https://code.visualstudio.com/)
+    * To test the code in case of any problems
+* [Heroku](https://www.heroku.com)
+    * To deploy the project into the live environment.
+* [Lucid](https://lucid.app/users/login)
+    * To create a project diagram.
+
+
+
 
 
 
