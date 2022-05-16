@@ -219,6 +219,63 @@ Due to the current security breach in Heroku, the following steps were taken to 
 * [Lucid](https://lucid.app/users/login)
     * To create a project diagram.
 
+## **Testing User Stories from the User Experience (UX) Section**
+As a user, I want the game instructions to be easily accessible and easy to understand
+* **Plan**
+    
+    Describe the game rules in a very simple way and ensure the user has easy access to read them.
+* **Implementation**
+
+    When the user selects to read the game instructions by pressing the “I” key in the main menu, a new screen in the console will be displayed with the rules of the game.
+* **Testing**
+
+    Tests have been conducted numerous times to ensure that the game rules are displayed correctly after pressing the "I" key from the main menu. In addition, many of my friends who were testing this game confirmed that the game rules are explained very well in a clear and very understandable form.
+* **Result**
+
+    The game instructions are explained very well and they are easily accessible.
+* **Verdict**
+
+    The user has easy access to the game rules which are easily understandable.
+
+As a user, I want the game to be intuitive and easy to navigate.
+* **Plan**
+    
+    Create a very simple game control system that is easy to navigate and very intuitive to use.
+* **Implementation**
+
+    *Main menu section*
+    
+    The following letters are being used to ensure easy navigation in the main menu:
+    * P key will start the game,
+    * I key will display the game instructions,
+    * E key will exit the game.
+
+    *Instructions how to play section*
+
+    The following letters are used to ensure easy navigation in the section where the game instructions are displayed:
+    * P key will start the game,
+    * E key will return to the main menu
+
+    *Category selection section*
+    
+    Only numbers from 1 -5 will be accepted when choosing a word category
+    * E key will return to the main menu
+
+    *Handling other user entries*
+    If the user presses a key other than the required key, a message prompting the user to press the appropriate key will appear on the screen.
+	
+* **Testing**
+    
+    Testing was carried out in each section of the game to ensure that only appropriate keys pressed by the user would be accepted to navigate properly through the game. If the user presses a key other than the required one, a message will be displayed on the screen asking the user to press the correct key.
+
+* **Result**
+
+    All tests passed. No issues noted. The game navigation system is working as expected.
+* **Verdict**
+
+    A simple navigation system has been implemented successfully.
+
+
 
 
 
