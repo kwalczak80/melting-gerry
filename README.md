@@ -275,6 +275,84 @@ As a user, I want the game to be intuitive and easy to navigate.
 
     A simple navigation system has been implemented successfully.
 
+As a user, I want to have an option to choose different word categories
+* **Plan**
+
+    Provide the user with the ability to choose a category from which they will be guessing the word
+
+* **Implementation**
+
+    Five different categories are available for the user to choose from. See the list below:
+    * Animals
+    * Job and occupation
+    * Fruit
+    * Food
+    * Colors
+
+* **Testing**
+
+    Tests have been conducted numerous times to ensure that the words are loaded correctly from each category selected.
+
+* **Result**
+
+    Tests confirmed that the words are being loaded from each category.
+
+* **Verdict**
+
+    The user can choose from 5 different categories. Each category has a corresponding set of words to avoid the same word being randomized for guesswork.
+
+As a user, I want to try to guess words of varying difficulty levels.
+* **Plan**
+    
+    Each category should contain words of varying length
+
+* **Implementation**
+    
+    The following websites were visited to build word banks for each category.
+    * [enchantedlearning.com](https://www.enchantedlearning.com/wordlist/)
+    * [thegamegal.com](https://www.thegamegal.com/printables/)
+
+	The word banks available in the game are as follows:
+    * The animal category contains 88 words with word lengths ranging from three to twelve letters. 
+    * The job and occupation category contains 204 words with word lengths ranging from three to fifteen letters. 
+    * The fruit category contains 53 words with word lengths ranging from three to eleven letters. 
+    * The food category contains 58 words with word lengths ranging from three to ten letters. 
+    * The colors category contains 105 words with word lengths ranging from three to thirteen letters.  
+
+* **Testing**
+    
+    Tests were carried out multiple times to ensure that the words displayed on the screen were of varying lengths, meaning that they had varying difficulty levels to guess.
+
+* **Result**
+
+    Each category provides words of varying difficulty levels to guess which are correctly displayed on the screen.
+
+* **Verdict**
+
+    The game provides words to be guessed of varying difficulty levels for each category.
+
+As a user, I want to know the word I was trying to guess when the game is over
+
+* **Plan**
+
+    Display the word the user was trying to guess. 
+
+* **Implementation**
+    When the game is over, and the word is not guessed b the user, the word will be revealed and displayed on a new screen.
+    When the game is over and the word is guessed by the user, the word will be displayed on a new screen with a congratulations message.
+
+* **Testing**
+    
+    Tests have been conducted numerous times to ensure that the word is displayed correctly when the game is over.
+
+* **Result**
+    
+    The user has the opportunity to find out what was the word they were trying to guess during the game
+
+* **Verdict**
+    
+    The test has passed all the criteria and works as planned.
+
 
 
 
