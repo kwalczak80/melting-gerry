@@ -65,7 +65,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Art by Hayley Jane Wakenshaw
     * Art by jb
 
-    The final artwork was created by myself by using two artworks mentioned above.
+    The final artwork was created by myself using two artworks mentioned above.
 
     ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.PNG)
 
@@ -131,7 +131,11 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If the correct category is selected by the user, the main game screen will be displayed.
 
     ![Main Game Screen](docs/screenshots/main_game_screen.PNG)
-
+* During the game the following information is displayed on the screen:
+    * The number of attempts left to guess the word,
+    * The hidden word is represented by the underscore characters '_' The number of underscore characters equals the number of letters in the word to be guessed.
+    * Which letters have been already used to guess the word
+* Once the letter is entered by the user, the program checks if the letter is listed in the word. If not, information in yellow color is displayed on the screen to inform the user that the letter they selected is not correct. The used letters table will be updated automatically with the chosen letter. The number of attempts to finish the game will decrease.
 
 
 
