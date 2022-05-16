@@ -166,6 +166,16 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
 
+###  **Exit game**
+
+---
+
+## **Features to be implemented**
+* To have a record of users’ highest scores. 
+
+    I plan to implement this idea by using a Google spreadsheet to store the number of guesses and the number of games won by each player. The user would receive information on which position they are in on the high score list after finishing the game and saving the results in a spreadsheet. There should also be an option in the game menu to display the high score list on the screen with limitations to the top 10 highest scores.
+
+---
 
 
 
