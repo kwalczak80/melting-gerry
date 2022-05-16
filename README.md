@@ -153,6 +153,18 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If more than one letter is entered by the user, the following error message will be displayed to inform the user to enter only one letter at a time.
 
     ![More than one character entered message](docs/screenshots/more_that_one_character_entered_message.PNG)
+* When the number of attempts to save Gerry’s life is equal to zero, a new screen will be displayed informing the user that snowman Gerry has melted. At this stage, the user has the option to start the game again by pressing the “Y” key or exit the main menu by pressing the “N” key.
+
+    ![Game over word not guessed](docs/screenshots/game_over_word_not_guessed_message.PNG)
+* If any other option than “Y” or “N” is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
+
+    ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
+* If the word is guessed correctly, a congratulations message is displayed on the screen. The user has the option to play the game again or exit to the main menu.
+
+    ![Game over word guessed correctly](docs/screenshots/game_over_word_guessed_message.PNG)
+
+
+
 
 
 
