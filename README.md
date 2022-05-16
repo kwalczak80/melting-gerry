@@ -139,6 +139,22 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * Snowman Gerry will start melting!!!
 
     ![Letter not in word message](docs/screenshots/letter_not_in_word.PNG)
+* If the letter entered by the player is correct, information in green color is displayed on the screen to inform the user that the letter they selected is correct. The used letters table will be updated automatically. The number of attempts to finish the game remains the same.
+
+    ![Letter in word message](docs/screenshots/letter_in_word_message.PNG)
+* Snowman Gerry is safe!!!
+* If the same letter is entered by the user again, the following message is displayed on the screen. The used letters table is not updated as the letter is already being used. The number of attempts to finish the game is not changed either.
+
+    ![Letter already used message](docs/screenshots/letter_already_used_message.PNG)
+* If the user enters a character other than the letter, the appropriate information will be displayed in the console.
+* The number of attempts left to finish the game remains the same.
+
+    ![Incorrect character entered message](docs/screenshots/incorrect_character_entered_message.PNG)
+* If more than one letter is entered by the user, the following error message will be displayed to inform the user to enter only one letter at a time.
+
+    ![More than one character entered message](docs/screenshots/more_that_one_character_entered_message.PNG)
+
+
 
 
 
