@@ -177,6 +177,26 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
+## **Deployment**
+The project was deployed to Heroku following the steps below:
+* Commit changes and push them to GitHub.
+* Go to Heroku's website.
+* Create an account or select login.
+* From the Heroku dashboard, click on "Create new app".
+* Enter the "App name" and "Choose a region" before clicking on "Create app".
+* Select "Config Vars" under the "Settings" tab.
+* Click on "Reveals Config Vars".
+* Add in the Config Var, KEY: PORT, and VALUE: 8000.
+* Click on the "Buildpacks" section and click "Add buildpack".
+* Select "python" and click "Save changes"
+* Add "nodejs" buildpack using the same process.
+
+Due to the current security breach in Heroku, the following steps were taken to deploy the game code to Heroku:
+* In the Gitpod console application enter “heroku login -i”
+* Log in with the email address used while creating the Heroku account.
+* Enter the password.
+* Enter “heroku git: remote -a melting-gerry” to remotely connect the application with the Gitpod terminal.
+* Once the code is ready to be deployed enter “git push heroku main” in the console to deploy to Heroku.
 
 
 
