@@ -136,6 +136,10 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * The hidden word is represented by the underscore characters '_' The number of underscore characters equals the number of letters in the word to be guessed.
     * Which letters have been already used to guess the word
 * Once the letter is entered by the user, the program checks if the letter is listed in the word. If not, information in yellow color is displayed on the screen to inform the user that the letter they selected is not correct. The used letters table will be updated automatically with the chosen letter. The number of attempts to finish the game will decrease.
+* Snowman Gerry will start melting!!!
+
+    ![Letter not in word message](docs/screenshots/letter_not_in_word.PNG)
+
 
 
 
