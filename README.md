@@ -162,6 +162,12 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If the word is guessed correctly, a congratulations message is displayed on the screen. The user has the option to play the game again or exit to the main menu.
 
     ![Game over word guessed correctly](docs/screenshots/game_over_word_guessed_message.PNG)
+* If any other option than “Y” or “N” is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
+
+    ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
+
+
+
 
 
 
