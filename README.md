@@ -43,7 +43,6 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * To have enough words to guess in each category to entertain the user for a long time.
 
 ---
-
 ## **Design**
 
 ### **Colors**
@@ -224,6 +223,16 @@ Due to the current security breach in Heroku, the following steps were taken to 
     * To deploy the project into the live environment.
 * [Lucid](https://lucid.app/users/login)
     * To create a project diagram.
+
+---
+
+## **Testing**
+The code has been tested using [PEP8 Online](http://pep8online.com/)
+* Initial Validator Testing
+    ![Initial Validator Testing](docs/screenshots/initial_validator_testing.PNG)
+
+* Final Validator Testing
+    ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.PNG)
 
 ## **Testing User Stories from the User Experience (UX) Section**
 As a user, I want the game instructions to be easily accessible and easy to understand
