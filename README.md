@@ -242,7 +242,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 ### **Manual testing**
 * The tests were performed on both the Gitpod terminal and the  Heroku terminal.
 * The tests were performed on each screen of the game by entering data out of acceptable range. No issues noted - all the user entries are handled correctly. 
-* Relevant message is displayed on the screen if the user entries are incorrect. See relavant screenshots in **Features** section.
+* Relevant message is displayed on the screen if the user entries are incorrect. See relavant screenshots in the **Features** section.
 * Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported. 
 
 ## **Testing User Stories from the User Experience (UX) Section**
@@ -378,6 +378,18 @@ As a user, I want to know the word I was trying to guess when the game is over
 * **Verdict**
     
     The test has passed all the criteria and works as planned.
+
+---
+
+## **Bugs**
+### **Sovled bugs**
+* Issue
+    * The following message was displayed in the console during manual testing process : **NameError: name 'player_name' is not defined**.
+      This issue was related to the local scope of the 'player_name' variable in *get_player_name* function.
+* Solution
+    * Fixed by setting up *player_name* variable as global.
+### **Unfixed bugs**
+* None currently known
 
 ---
 
