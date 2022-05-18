@@ -357,6 +357,10 @@ As a user, I want to know the word I was trying to guess when the game is over
 * The artwork used in this project was copied from the following websites:
     * [ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN)
     * [ASCII Art](https://www.asciiart.eu/holiday-and-events/christmas/snowmen)
+* The following websites were visited to build word banks for each category:
+    * [enchantedlearning.com](https://www.enchantedlearning.com/wordlist/)
+    * [www.thegamegal.com](https://www.thegamegal.com/printables/)
+
 
 ## **Acknowledgments**
 * My Mentor Simen [Eventyret_mentor](https://github.com/Eventyret) for continuous helpful feedback.
