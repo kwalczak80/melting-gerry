@@ -173,7 +173,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 [Back to Top](#table-of-contents)
 
 ### **Play game**
-* Before the game starts, the user will be asked to choose a category from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
+* Before the game starts, the user will be asked to choose a category number from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
 * Currently, in the game, there are five-word categories to choose from:
     * Animals
     * Job and occupation
