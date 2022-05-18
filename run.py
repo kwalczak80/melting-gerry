@@ -28,7 +28,7 @@ class TextColor:
     ENDC = '\033[0m'
 
 
-def p(text):
+def print_text_in_the_middle_of_console(text):
     """
     Function to print text
     in the middle of console.
@@ -55,12 +55,18 @@ def display_game_name():
     """
     Display the game name
     """
-    p("  _____ _   _  ______          ____  __          _   _ ")
-    p(" / ____| \ | |/ __ \ \        / |  \/  |   /\   | \ | |")
-    p("| (___ |  \| | |  | \ \  /\  / /| \  / |  /  \  |  \| |")
-    p(" \___ \|     | |  | |\ \/  \/ / | |\/| | / /\ \ |     |")
-    p(" ____) | |\  | |__| | \  /\  /  | |  | |/ ____ \| |\  |")
-    p("|_____/|_| \_|\____/   \/  \/   |_|  |_/_/    \_|_| \_|\n")
+    print_text_in_the_middle_of_console("  _____ _   _  ______          ____  "
+                                        "__          _   _ ")
+    print_text_in_the_middle_of_console(" / ____| \ | |/ __ \ \        / |  \/"
+                                        "  |   /\   | \ | |")
+    print_text_in_the_middle_of_console("| (___ |  \| | |  | \ \  /\  / /| \  "
+                                        "/ |  /  \  |  \| |")
+    print_text_in_the_middle_of_console(" \___ \|     | |  | |\ \/  \/ / | |\/"
+                                        "| | / /\ \ |     |")
+    print_text_in_the_middle_of_console(" ____) | |\  | |__| | \  /\  /  | |  "
+                                        "| |/ ____ \| |\  |")
+    print_text_in_the_middle_of_console("|_____/|_| \_|\____/   \/  \/   |_|  "
+                                        "|_/_/    \_|_| \_|\n")
 
 
 def clear_header():
@@ -131,13 +137,13 @@ def menu(player_name):
     """
     clear_header()
     while True:
-        p(f"Welcome {player_name}\n")
-        p("***    Menu    ***\n")
-        p("Play game\n")
-        p("Instructions how to play\n")
-        p("Exit\n")
-        p("Press P to play game or I to read"
-          " instructions how to play.\n")
+        print_text_in_the_middle_of_console(f"Welcome {player_name}\n")
+        print_text_in_the_middle_of_console("***    Menu    ***\n")
+        print_text_in_the_middle_of_console("Play game\n")
+        print_text_in_the_middle_of_console("Instructions how to play\n")
+        print_text_in_the_middle_of_console("Exit\n")
+        print_text_in_the_middle_of_console("Press P to play game or I to read"
+                                            " instructions how to play.\n")
         user_input = input("Alternatively press "
                            "E to exit the game.\n".center(width)).upper()
         if user_input == "P":
@@ -160,13 +166,14 @@ def word_category_selection():
     Function to select a category from which the word will be guessed
     """
     while True:
-        p("Please select a category from "
-          "which you will be guessing the word.\n")
-        p("1. Animals\n")
-        p("2. Job and occupation\n")
-        p("3. Fruit\n")
-        p("4. Food\n")
-        p("5. Colors\n")
+        print_text_in_the_middle_of_console("Please select a category from "
+                                            "which you will be guessing the"
+                                            " word.\n")
+        print_text_in_the_middle_of_console("1. Animals\n")
+        print_text_in_the_middle_of_console("2. Job and occupation\n")
+        print_text_in_the_middle_of_console("3. Fruit\n")
+        print_text_in_the_middle_of_console("4. Food\n")
+        print_text_in_the_middle_of_console("5. Colors\n")
         player_choice = input("Alternatively, press E "
                               "to exit\n".center(width)).upper()
         if player_choice == '1':
@@ -203,16 +210,20 @@ def display_instructions():
     Function to display game instructions
     with option to return to main menu
     """
-    p("Select a category from which you will be guessing the word.\n")
-    p("Try to guess the hidden letters.\n")
-    p("If you guess correctly, the letter will appear on the "
-      "screen and \n")
-    p("Gerry the snowman will be safe.\n")
-    p("However, if you guess incorrectly Gerry will start melting !!!\n")
-    p("You have six attempts to save Gerry's life.\n")
-    p("Best of luck!\n")
+    print_text_in_the_middle_of_console("Select a category from which you "
+                                        "will be guessing the word.\n")
+    print_text_in_the_middle_of_console("Try to guess the hidden letters.\n")
+    print_text_in_the_middle_of_console("If you guess correctly, the letter "
+                                        "will appear on the screen and \n")
+    print_text_in_the_middle_of_console("Gerry the snowman will be safe.\n")
+    print_text_in_the_middle_of_console("However, if you guess incorrectly "
+                                        "Gerry will start melting !!!\n")
+    print_text_in_the_middle_of_console("You have six attempts to save "
+                                        "Gerry's life.\n")
+    print_text_in_the_middle_of_console("Best of luck!\n")
     while True:
-        enter_input = input("Press P to play the game or E return to main menu\n".center(width)).upper()
+        enter_input = input("Press P to play the game or E return to "
+                            "main menu\n".center(width)).upper()
         if enter_input == "P":
             clear_header()
             word_category_selection()
@@ -228,9 +239,10 @@ def exit_game():
     Display 'thank you' information
     and exit game
     """
-    p(f"Bye bye {player_name}\n")
-    p("Thank you for playing the Melting Gerry game.")
-    p("See you next time !!")
+    print_text_in_the_middle_of_console(f"Bye bye {player_name}\n")
+    print_text_in_the_middle_of_console("Thank you for playing the Melting "
+                                        "Gerry game.")
+    print_text_in_the_middle_of_console("See you next time !!")
     sys.exit()
 
 
@@ -241,12 +253,13 @@ def play_game(word):
     for i in range(len(word)):
         table[i] = "_"
     while number_of_tries > 0:
-        p(display_snowman[number_of_tries])
-        p(f"You have {number_of_tries} attempts to save Gerry's life.")
+        print_text_in_the_middle_of_console(display_snowman[number_of_tries])
+        print_text_in_the_middle_of_console(f"You have {number_of_tries} "
+                                            "attempts to save Gerry's life.")
         print()
         print(" ".join(table).center(width))
         print()
-        p(f"Used letters : {used_letters}")
+        print_text_in_the_middle_of_console(f"Used letters : {used_letters}")
         letter = input("Please enter a "
                        "letter:\n".center(width)).upper().strip()
         clear_header()
@@ -274,13 +287,16 @@ def play_game(word):
             clear_header()
             print_correct_guess("Fantastic !!! You have guessed "
                                 f"the word {word} correctly.\n".center(width))
-            print_correct_guess("Gerry the snowman is safe thanks to you.\n".center(width))
+            print_correct_guess("Gerry the snowman is safe "
+                                "thanks to you.\n".center(width))
             restart_game(player_name)
         elif number_of_tries == 0:
             clear_screen()
-            p(display_snowman[0])
-            p("Oh my GOD !!! Gerry has melted !!!\n")
-            print_hidden_word(f"The word you were trying to guess was {word}\n".center(width))
+            print_text_in_the_middle_of_console(display_snowman[0])
+            print_text_in_the_middle_of_console("Oh my GOD !!! Gerry has "
+                                                "melted !!!\n")
+            print_hidden_word("The word you were trying"
+                              f" to guess was {word}\n".center(width))
             restart_game(player_name)
 
 
