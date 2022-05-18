@@ -224,7 +224,7 @@ def exit_game():
     and exit game
     """
     p(f"Bye bye {player_name}\n")
-    p("Thank you for playing the Snowman game.")
+    p("Thank you for playing the Melting Gerry game.")
     p("See you next time !!")
     sys.exit()
 
