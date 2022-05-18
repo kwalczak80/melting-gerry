@@ -7,35 +7,37 @@ To save Gerry's life, the user has to find all of the letters in the word random
 
 ---
 
+<a></a>
+
 ## Table of contents
-- [**Flow Chart**](#--flow-chart--)
-- [**User Experience (UX)**](#--user-experience--ux---)
-  * [**User Goals**](#--user-goals--)
-  * [**User Stories**](#--user-stories--)
-  * [**Site owners Goals**](#--site-owners-goals--)
-- [**Design**](#--design--)
-  * [**Colors**](#--colors--)
-  * [**Artwork**](#--artwork--)
-- [**Features**](#--features--)
-  * [**User Name**](#--user-name--)
-  * [**Menu**](#--menu--)
-  * [**Instructions how to play**](#--instructions-how-to-play--)
-  * [**Play game**](#--play-game--)
-  * [**Exit game**](#--exit-game--)
-- [**Features to be implemented**](#--features-to-be-implemented--)
-- [**Deployment**](#--deployment--)
-- [**Technologies Used**](#--technologies-used--)
-  * [**Languages**](#--languages--)
-  * [**Tools**](#--tools--)
-- [**Testing**](#--testing--)
-  * [**PEP8**](#--pep8--)
-  * [**Manual testing**](#--manual-testing--)
-- [**Testing User Stories from the User Experience (UX) Section**](#--testing-user-stories-from-the-user-experience--ux--section--)
-- [**Bugs**](#--bugs--)
-  * [**Sovled bugs**](#--sovled-bugs--)
-  * [**Unfixed bugs**](#--unfixed-bugs--)
-- [**Content**](#--content--)
-- [**Acknowledgments**](#--acknowledgments--)
+- [**Flow Chart**](#flow-chart)
+- [**User Experience (UX)**](#user-experience--ux)
+  * [**User Goals**](#user-goals)
+  * [**User Stories**](#user-stories)
+  * [**Site owners Goals**](#site-owners-goals)
+- [**Design**](#design)
+  * [**Colors**](#colors)
+  * [**Artwork**](#artwork)
+- [**Features**](#features)
+  * [**User Name**](#user-name)
+  * [**Menu**](#menu)
+  * [**Instructions how to play**](#instructions-how-to-play)
+  * [**Play game**](#play-game)
+  * [**Exit game**](#exit-game)
+- [**Features to be implemented**](#features-to-be-implemented)
+- [**Deployment**](#deployment)
+- [**Technologies Used**](#technologies-used)
+  * [**Languages**](#languages)
+  * [**Tools**](#tools)
+- [**Testing**](#testing)
+  * [**PEP8**](#pep8)
+  * [**Manual testing**](#manual-testing)
+- [**Testing User Stories from the User Experience (UX) Section**](#testing-user-stories-from-the-user-experience--ux--section)
+- [**Bugs**](#bugs)
+  * [**Sovled bugs**](#sovled-bugs)
+  * [**Unfixed bugs**](#unfixed-bugs)
+- [**Content**](#content)
+- [**Acknowledgments**](#acknowledgments)
 
 ---
 
@@ -45,6 +47,8 @@ The Lucid application was used to create a flow chart for the Melting Gerry game
 Creating a flowchart helped me find less obvious features of the program's algorithm, which were then refined to improve its performance, i.e., bottlenecks, flaws, and unnecessary steps. 
 
 ![Flow chart](docs/screenshots/flow_chart_of_melting_gerry_game.png)
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -61,6 +65,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * The user should know which letters have already been used.
 * The game should appropriately handle the user entries.
 
+[Back to Top](#table-of-contents)
+
 ### **User Stories**
 * As a user, I want the game instructions to be easily accessible and easy to understand.
 * As a user, I want the game to be intuitive and easy to navigate.
@@ -68,13 +74,18 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * As a user, I want to try to guess words of varying difficulty levels.
 * As a user, I want to know the word I was trying to guess when the game is over.
 
+[Back to Top](#table-of-contents)
+
 ### **Site owners Goals**
 * To have an easy-to-navigate and entertaining website where users can spend some time enjoying the Melting Gerry game.
 * To have different word categories so the user can have an option to try to guess different words.
 * To have an algorithm in the code that can handle all the user inputs.
 * To have enough words to guess in each category to entertain the user for a long time.
 
+[Back to Top](#table-of-contents)
+
 ---
+
 ## **Design**
 
 ### **Colors**
@@ -94,6 +105,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * The blue color was used to display information when the game is over and the word is not guessed correctly.
 
     ![Word not guessed](docs/screenshots/word_not_guessed_message.PNG)
+
+[Back to Top](#table-of-contents)
+
 ### **Artwork**
 * The main “Snowman” logo was created using the [Text to ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN) with some small     modifications from the originally generated artwork.
     ![Main Logo](docs/screenshots/main_logo.PNG)
@@ -105,6 +119,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
     The final artwork was created by myself using two artworks mentioned above.
 
     ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.PNG)
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -125,6 +141,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Player Name Blank](docs/screenshots/player_name-blank.PNG)
 
+[Back to Top](#table-of-contents)
+
 ### **Menu**
 * Once the player's name is entered, the game menu is displayed on the screen. To achieve a better user experience, I decided to have all the text information displayed in the middle of the console, which in my opinion, looks very nice.
 
@@ -139,6 +157,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Menu Not Valid Option Selected](docs/screenshots/menu_not_valid_option_selected.PNG)
 
+[Back to Top](#table-of-contents)
+
 ### **Instructions how to play**
 * Once the user selects to read the game instructions, the following screen will be displayed in the console window. The game instructions are very simple and easy to follow.
 
@@ -149,6 +169,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If the user chooses a different option, a message will be displayed on the screen asking them to select a valid option.
 
     ![Game Instructions Choose Valid Option](docs/screenshots/game_instructions_choose_valid_option.PNG)
+
+[Back to Top](#table-of-contents)
 
 ### **Play game**
 * Before the game starts, the user will be asked to choose a category from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
@@ -203,10 +225,14 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
 
+[Back to Top](#table-of-contents)
+
 ###  **Exit game**
 * If the user hit the E key while in the main menu, the game will be terminated and the game exit screen will be displayed.
 
     ![Exit game](docs/screenshots/exit_game_message.PNG)
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -214,6 +240,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * To have a record of users’ highest scores. 
 
     I plan to implement this idea by using a Google spreadsheet to store the number of guesses and the number of games won by each player. The user would receive information on which position they are in on the high score list after finishing the game and saving the results in a spreadsheet. There should also be an option in the game menu to display the high score list on the screen with limitations to the top 10 highest scores.
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -238,6 +266,8 @@ Due to the current security breach in Heroku, the following steps were taken to 
 * Enter “heroku git: remote -a melting-gerry” to remotely connect the application with the Gitpod terminal.
 * Once the code is ready to be deployed enter “git push heroku main” in the console to deploy to Heroku.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## **Technologies Used**
@@ -259,6 +289,8 @@ Due to the current security breach in Heroku, the following steps were taken to 
 * [Lucid](https://lucid.app/users/login)
     * To create a project diagram.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## **Testing**
@@ -271,11 +303,15 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.PNG)
 
+[Back to Top](#table-of-contents)
+
 ### **Manual testing**
 * The tests were performed on both the Gitpod terminal and the  Heroku terminal.
 * The tests were performed on each screen of the game by entering data out of acceptable range. No issues noted - all the user entries are handled correctly. 
 * Relevant message is displayed on the screen if the user entries are incorrect. See relavant screenshots in the **Features** section.
-* Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported. 
+* Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported.
+
+[Back to Top](#table-of-contents)
 
 ## **Testing User Stories from the User Experience (UX) Section**
 As a user, I want the game instructions to be easily accessible and easy to understand
@@ -411,6 +447,8 @@ As a user, I want to know the word I was trying to guess when the game is over
     
     The test has passed all the criteria and works as planned.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## **Bugs**
@@ -423,6 +461,8 @@ As a user, I want to know the word I was trying to guess when the game is over
 ### **Unfixed bugs**
 * None currently known
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## **Content**
@@ -433,6 +473,8 @@ As a user, I want to know the word I was trying to guess when the game is over
     * [enchantedlearning.com](https://www.enchantedlearning.com/wordlist/)
     * [www.thegamegal.com](https://www.thegamegal.com/printables/)
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ## **Acknowledgments**
@@ -440,6 +482,8 @@ As a user, I want to know the word I was trying to guess when the game is over
 * Code Institute's [Slack](https://app.slack.com/client/) community for their support.
 * [W3Schools](https://www.w3schools.com/python/) as an additional source of knowledge.
 * All family members and friends who helped test this game.
+
+[Back to Top](#table-of-contents)
 
 
 
