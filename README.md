@@ -227,12 +227,20 @@ Due to the current security breach in Heroku, the following steps were taken to 
 ---
 
 ## **Testing**
+### **PEP8**
 The code has been tested using [PEP8 Online](http://pep8online.com/)
 * Initial Validator Testing
-    ![Initial Validator Testing](docs/screenshots/initial_validator_testing.PNG)
 
+    ![Initial Validator Testing](docs/screenshots/initial_validator_testing.PNG)
 * Final Validator Testing
+
     ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.PNG)
+
+### **Manual testing**
+* The tests were performed on both the Gitpod terminal and the  Heroku terminal.
+* The tests were performed on each screen of the game by entering data out of acceptable range. No issues noted - all the user entries are handled correctly. 
+* Relevant message is displayed on the screen if the user entries are incorrect. See relavant screenshots in **Features** section.
+* Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported. 
 
 ## **Testing User Stories from the User Experience (UX) Section**
 As a user, I want the game instructions to be easily accessible and easy to understand
