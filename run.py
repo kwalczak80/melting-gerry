@@ -1,4 +1,4 @@
-# Melting Gerry game
+# The Melting Gerry game
 
 # Import required libraries
 import os
@@ -71,7 +71,7 @@ def display_game_name():
 
 def clear_header():
     """
-    calls to clear screen and display game name
+    Clear screen and display game name
     """
     clear_screen()
     display_game_name()
@@ -166,9 +166,9 @@ def word_category_selection():
     Function to select a category from which the word will be guessed
     """
     while True:
-        print_text_in_the_middle_of_console("Please select a category from "
-                                            "which you will be guessing the"
-                                            " word.\n")
+        print_text_in_the_middle_of_console("Please select a category number "
+                                            "from which you will be guessing "
+                                            "the word.\n")
         print_text_in_the_middle_of_console("1. Animals\n")
         print_text_in_the_middle_of_console("2. Job and occupation\n")
         print_text_in_the_middle_of_console("3. Fruit\n")
@@ -249,12 +249,12 @@ def exit_game():
 def play_game(word):
     table = list(word)
     used_letters = []
-    number_of_tries = 6
+    number_of_attempts = 6
     for i in range(len(word)):
         table[i] = "_"
-    while number_of_tries > 0:
-        print_text_in_the_middle_of_console(display_snowman[number_of_tries])
-        print_text_in_the_middle_of_console(f"You have {number_of_tries} "
+    while number_of_attempts > 0:
+        print_text_in_the_middle_of_console(display_snowman[number_of_attempts])
+        print_text_in_the_middle_of_console(f"You have {number_of_attempts} "
                                             "attempts to save Gerry's life.")
         print()
         print(" ".join(table).center(width))
