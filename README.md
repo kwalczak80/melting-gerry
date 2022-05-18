@@ -172,6 +172,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
     ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
 
 ###  **Exit game**
+* If the user hit the E key while in the main menu, the game will be terminated and the game exit screen will be displayed.
+
+    ![Exit game](docs/screenshots/exit_game_message.PNG)
 
 ---
 
