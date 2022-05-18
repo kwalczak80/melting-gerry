@@ -353,6 +353,11 @@ As a user, I want to know the word I was trying to guess when the game is over
     
     The test has passed all the criteria and works as planned.
 
+## **Content**
+* 
+
+
+
 
 ## **Acknowledgments**
 * My Mentor Simen [Eventyret_mentor](https://github.com/Eventyret) for continuous helpful feedback.
