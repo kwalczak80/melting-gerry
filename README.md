@@ -314,7 +314,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 [Back to Top](#table-of-contents)
 
 ## **Testing User Stories from the User Experience (UX) Section**
-As a user, I want the game instructions to be easily accessible and easy to understand
+### **As a user, I want the game instructions to be easily accessible and easy to understand.**
 * **Plan**
     
     Describe the game rules in a very simple way and ensure the user has easy access to read them.
@@ -331,7 +331,7 @@ As a user, I want the game instructions to be easily accessible and easy to unde
 
     The user has easy access to the game rules which are easily understandable.
 
-As a user, I want the game to be intuitive and easy to navigate.
+### **As a user, I want the game to be intuitive and easy to navigate.**
 * **Plan**
     
     Create a very simple game control system that is easy to navigate and very intuitive to use.
@@ -368,8 +368,8 @@ As a user, I want the game to be intuitive and easy to navigate.
 * **Verdict**
 
     A simple navigation system has been implemented successfully.
-
-As a user, I want to have an option to choose different word categories
+**
+### **As a user, I want to have an option to choose different word categories.**
 * **Plan**
 
     Provide the user with the ability to choose a category from which they will be guessing the word
@@ -395,7 +395,7 @@ As a user, I want to have an option to choose different word categories
 
     The user can choose from 5 different categories. Each category has a corresponding set of words to avoid the same word being randomized for guesswork.
 
-As a user, I want to try to guess words of varying difficulty levels.
+### **As a user, I want to try to guess words of varying difficulty levels.**
 * **Plan**
     
     Each category should contain words of varying length
@@ -425,7 +425,7 @@ As a user, I want to try to guess words of varying difficulty levels.
 
     The game provides words to be guessed of varying difficulty levels for each category.
 
-As a user, I want to know the word I was trying to guess when the game is over
+### **As a user, I want to know the word I was trying to guess when the game is over.**
 
 * **Plan**
 
