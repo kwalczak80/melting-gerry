@@ -1,4 +1,6 @@
 # Melting Gerry game
+
+# Import required libraries
 import os
 import sys
 import random
@@ -9,10 +11,16 @@ from word_categories import (animal_words,
                              food_words,
                              color_words)
 
+
+# Used to query the size of a terminal
 width = os.get_terminal_size().columns
 
 
 class TextColor:
+    '''
+    Class to define colors
+    for text to be printed in termianal
+    '''
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
     WARNING = '\033[93m'
@@ -39,7 +47,7 @@ def clear_screen(numlines=100):
         # DOS/Windows
         os.system('CLS')
     else:
-        # Fallback for other operating systems.
+        # Other operating systems.
         print('\n' * numlines)
 
 
