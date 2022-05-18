@@ -12,15 +12,12 @@ from word_categories import (animal_words,
 width = os.get_terminal_size().columns
 
 
-class bcolors:
-    HEADER = '\033[95m'
+class TextColor:
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
     WARNING = '\033[93m'
     FAIL = '\033[91m'
     ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
 
 
 def p(text):
@@ -70,28 +67,28 @@ def print_error_message(text):
     """
     Prints error message in red color
     """
-    print(f"{bcolors.FAIL}{text}{bcolors.ENDC}")
+    print(f"{TextColor.FAIL}{text}{TextColor.ENDC}")
     
 
 def print_correct_guess(correct_guess_text):
     """
     Prints text in green color is user guessed the letter or word correctly
     """
-    print(f"{bcolors.OKGREEN}{correct_guess_text}{bcolors.ENDC}")
+    print(f"{TextColor.OKGREEN}{correct_guess_text}{TextColor.ENDC}")
     
 
 def print_incorrect_guess(incorrect_guess_text):
     """
     Prints text in yellow color is user guessed the letter or word incorrectly
     """
-    print(f"{bcolors.WARNING}{incorrect_guess_text}{bcolors.ENDC}")
+    print(f"{TextColor.WARNING}{incorrect_guess_text}{TextColor.ENDC}")
     
 
 def print_hidden_word(hidden_word):
     """
     Prints text in yellow color is user guessed the letter or word incorrectly
     """
-    print(f"{bcolors.OKBLUE}{hidden_word}{bcolors.ENDC}")
+    print(f"{TextColor.OKBLUE}{hidden_word}{TextColor.ENDC}")
 
 
 def get_player_name():
