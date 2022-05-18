@@ -32,7 +32,6 @@ Creating a flowchart helped me find less obvious features of the program's algor
 ### **User Stories**
 * As a user, I want the game instructions to be easily accessible and easy to understand.
 * As a user, I want the game to be intuitive and easy to navigate.
-* As a user, I want the game to be fun and engaging.
 * As a user, I want to have the option to choose different word categories.
 * As a user, I want to try to guess words of varying difficulty levels.
 * As a user, I want to know the word I was trying to guess when the game is over.

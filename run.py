@@ -11,6 +11,7 @@ from snowman_gerry import display_snowman
 
 width = os.get_terminal_size().columns
 
+
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -20,6 +21,7 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
 
 def p(text):
     """
@@ -63,6 +65,7 @@ def clear_header():
     clear_screen()
     display_game_name()
 
+
 def print_error_message(text):
     """
     Prints error message in red color
@@ -89,6 +92,7 @@ def print_hidden_word(hidden_word):
     Prints text in yellow color is user guessed the letter or word incorrectly
     """
     print(f"{bcolors.OKBLUE}{hidden_word}{bcolors.ENDC}")
+
 
 def get_player_name():
     """
