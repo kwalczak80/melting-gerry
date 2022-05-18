@@ -84,7 +84,7 @@ def print_error_message(text):
     Function to print error message in red color
     """
     print(f"{TextColor.FAIL}{text}{TextColor.ENDC}")
-    
+
 
 def print_correct_guess(correct_guess_text):
     """
@@ -92,7 +92,7 @@ def print_correct_guess(correct_guess_text):
     is user guessed the letter or word correctly
     """
     print(f"{TextColor.OKGREEN}{correct_guess_text}{TextColor.ENDC}")
-    
+
 
 def print_incorrect_guess(incorrect_guess_text):
     """
@@ -100,7 +100,7 @@ def print_incorrect_guess(incorrect_guess_text):
     is user guessed the letter or word incorrectly
     """
     print(f"{TextColor.WARNING}{incorrect_guess_text}{TextColor.ENDC}")
-    
+
 
 def print_hidden_word(hidden_word):
     """
@@ -115,13 +115,13 @@ def get_player_name():
     Function to validate user
     name before game commence
     """
-    global player_name    
+    global player_name
     while True:
         player_name = input("Please enter your name:\n".center(width)).strip()
         if player_name == "":
             clear_header()
             print_error_message("The player name cannot "
-                                "be blank !!\n".center(width))        
+                                "be blank !!\n".center(width))
         elif not player_name.isalpha():
             clear_header()
             print_error_message("The player name may only "
@@ -265,7 +265,8 @@ def play_game(word):
     for i in range(len(word)):
         table[i] = "_"
     while number_of_attempts > 0:
-        print_text_in_the_middle_of_console(display_snowman[number_of_attempts])
+        print_text_in_the_middle_of_console(display_snowman
+                                            [number_of_attempts])
         print_text_in_the_middle_of_console(f"You have {number_of_attempts} "
                                             "attempts to save Gerry's life.")
         print()
