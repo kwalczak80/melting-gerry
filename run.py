@@ -1,9 +1,11 @@
-# The Melting Gerry game
-
-# Import required libraries
+"""
+This section contains all imports
+"""
+# External import statements
 import os
 import sys
 import random
+# Import statements I created for this game.
 from snowman_gerry import display_snowman
 from word_categories import (animal_words,
                              job_and_occupation_words,
@@ -18,8 +20,8 @@ width = os.get_terminal_size().columns
 
 class TextColor:
     '''
-    Class to define colors
-    for text to be printed in termianal
+    Class to define text colors
+    printed in termianal
     '''
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
@@ -53,7 +55,7 @@ def clear_screen(numlines=100):
 
 def display_game_name():
     """
-    Display the game name
+    Function to display the game name
     """
     print_text_in_the_middle_of_console("  _____ _   _  ______          ____  "
                                         "__          _   _ ")
@@ -71,7 +73,7 @@ def display_game_name():
 
 def clear_header():
     """
-    Clear screen and display game name
+    Function to clear screen and display game name
     """
     clear_screen()
     display_game_name()
@@ -79,35 +81,39 @@ def clear_header():
 
 def print_error_message(text):
     """
-    Prints error message in red color
+    Function to print error message in red color
     """
     print(f"{TextColor.FAIL}{text}{TextColor.ENDC}")
     
 
 def print_correct_guess(correct_guess_text):
     """
-    Prints text in green color is user guessed the letter or word correctly
+    Function to prints text in green color
+    is user guessed the letter or word correctly
     """
     print(f"{TextColor.OKGREEN}{correct_guess_text}{TextColor.ENDC}")
     
 
 def print_incorrect_guess(incorrect_guess_text):
     """
-    Prints text in yellow color is user guessed the letter or word incorrectly
+    Function to prints text in yellow color
+    is user guessed the letter or word incorrectly
     """
     print(f"{TextColor.WARNING}{incorrect_guess_text}{TextColor.ENDC}")
     
 
 def print_hidden_word(hidden_word):
     """
-    Prints text in yellow color is user guessed the letter or word incorrectly
+    Prints text in blue color is user
+    guessed the letter or word incorrectly
     """
     print(f"{TextColor.OKBLUE}{hidden_word}{TextColor.ENDC}")
 
 
 def get_player_name():
     """
-    Validates user name before game commence
+    Function to validate user
+    name before game commence
     """
     global player_name    
     while True:
@@ -133,7 +139,8 @@ def get_player_name():
 
 def menu(player_name):
     """
-    Display the welcome message and the menu.
+    Function to display the welcome
+    message and the menu.
     """
     clear_header()
     while True:
@@ -163,7 +170,8 @@ def menu(player_name):
 
 def word_category_selection():
     """
-    Function to select a category from which the word will be guessed
+    Function to select a category
+    from which the word will be guessed
     """
     while True:
         print_text_in_the_middle_of_console("Please select a category number "
@@ -236,8 +244,8 @@ def display_instructions():
 
 def exit_game():
     """
-    Display 'thank you' information
-    and exit game
+    Function to display 'thank you'
+    information and exit game
     """
     print_text_in_the_middle_of_console(f"Bye bye {player_name}\n")
     print_text_in_the_middle_of_console("Thank you for playing the Melting "
@@ -248,7 +256,8 @@ def exit_game():
 
 def play_game(word):
     '''
-    Main function to play the game
+    Function to start the game
+    after category selection
     '''
     table = list(word)
     used_letters = []
@@ -305,7 +314,8 @@ def play_game(word):
 
 def restart_game(player_name):
     """
-    Ask user if they want to start new game
+    Function to ask user
+    if they want to start a new game
     """
     while True:
         user_input = input(
