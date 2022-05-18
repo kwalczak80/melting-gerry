@@ -247,6 +247,9 @@ def exit_game():
 
 
 def play_game(word):
+    '''
+    Main function to play the game
+    '''
     table = list(word)
     used_letters = []
     number_of_attempts = 6
@@ -280,7 +283,7 @@ def play_game(word):
                     if word[i] == letter:
                         table[i] = letter
             else:
-                number_of_tries -= 1
+                number_of_attempts -= 1
                 print_incorrect_guess(f"[{letter}] letter is "
                                       "not in the word".center(width))
         if "".join(map(str, table)) == word:
@@ -290,7 +293,7 @@ def play_game(word):
             print_correct_guess("Gerry the snowman is safe "
                                 "thanks to you.\n".center(width))
             restart_game(player_name)
-        elif number_of_tries == 0:
+        elif number_of_attempts == 0:
             clear_screen()
             print_text_in_the_middle_of_console(display_snowman[0])
             print_text_in_the_middle_of_console("Oh my GOD !!! Gerry has "
@@ -320,6 +323,9 @@ def restart_game(player_name):
 
 
 def melting_gerry_game():
+    '''
+    Main function to run the game
+    '''
     clear_screen()
     display_game_name()
     player_name = get_player_name()
