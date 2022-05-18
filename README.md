@@ -7,6 +7,38 @@ To save Gerry's life, the user has to find all of the letters in the word random
 
 ---
 
+## Table of contents
+- [**Flow Chart**](#--flow-chart--)
+- [**User Experience (UX)**](#--user-experience--ux---)
+  * [**User Goals**](#--user-goals--)
+  * [**User Stories**](#--user-stories--)
+  * [**Site owners Goals**](#--site-owners-goals--)
+- [**Design**](#--design--)
+  * [**Colors**](#--colors--)
+  * [**Artwork**](#--artwork--)
+- [**Features**](#--features--)
+  * [**User Name**](#--user-name--)
+  * [**Menu**](#--menu--)
+  * [**Instructions how to play**](#--instructions-how-to-play--)
+  * [**Play game**](#--play-game--)
+  * [**Exit game**](#--exit-game--)
+- [**Features to be implemented**](#--features-to-be-implemented--)
+- [**Deployment**](#--deployment--)
+- [**Technologies Used**](#--technologies-used--)
+  * [**Languages**](#--languages--)
+  * [**Tools**](#--tools--)
+- [**Testing**](#--testing--)
+  * [**PEP8**](#--pep8--)
+  * [**Manual testing**](#--manual-testing--)
+- [**Testing User Stories from the User Experience (UX) Section**](#--testing-user-stories-from-the-user-experience--ux--section--)
+- [**Bugs**](#--bugs--)
+  * [**Sovled bugs**](#--sovled-bugs--)
+  * [**Unfixed bugs**](#--unfixed-bugs--)
+- [**Content**](#--content--)
+- [**Acknowledgments**](#--acknowledgments--)
+
+---
+
 ## **Flow Chart**
 The Lucid application was used to create a flow chart for the Melting Gerry game. The flowchart shown below helped me to identify all essential steps within the game and simultaneously offer the bigger picture of the project.
 
