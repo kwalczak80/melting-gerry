@@ -32,7 +32,7 @@ To save Gerry's life, the user has to find all of the letters in the word random
 - [**Testing**](#testing)
   * [**PEP8**](#pep8)
   * [**Manual testing**](#manual-testing)
-- [**Testing User Stories from the User Experience (UX) Section**](#testing-user-stories-from-the-user-experience--ux--section)
+- [**Testing User Stories from the User Experience (UX) Section**](#testing-user-stories-from-the-user-experience-ux-section)
 - [**Bugs**](#bugs)
   * [**Sovled bugs**](#sovled-bugs)
   * [**Unfixed bugs**](#unfixed-bugs)
