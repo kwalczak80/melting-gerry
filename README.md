@@ -10,7 +10,7 @@ To save Gerry's life, the user has to find all of the letters in the word random
 ## **Flow Chart**
 The Lucid application was used to create a flow chart for the Melting Gerry game. The flowchart shown below helped me to identify all essential steps within the game and simultaneously offer the bigger picture of the project.
 
-Creating a flowchart helped me find less obvious features of the program's algorithm, which were then refined to improve its performance, ie bottlenecks, flaws, and unnecessary steps. 
+Creating a flowchart helped me find less obvious features of the program's algorithm, which were then refined to improve its performance, i.e., bottlenecks, flaws, and unnecessary steps. 
 
 ![Flow chart](docs/screenshots/flow_chart_of_melting_gerry_game.png)
 
@@ -379,6 +379,8 @@ As a user, I want to know the word I was trying to guess when the game is over
     
     The test has passed all the criteria and works as planned.
 
+---
+
 ## **Content**
 * The artwork used in this project was copied from the following websites:
     * [ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN)
@@ -387,6 +389,7 @@ As a user, I want to know the word I was trying to guess when the game is over
     * [enchantedlearning.com](https://www.enchantedlearning.com/wordlist/)
     * [www.thegamegal.com](https://www.thegamegal.com/printables/)
 
+---
 
 ## **Acknowledgments**
 * My Mentor Simen [Eventyret_mentor](https://github.com/Eventyret) for continuous helpful feedback.
