@@ -354,10 +354,9 @@ As a user, I want to know the word I was trying to guess when the game is over
     The test has passed all the criteria and works as planned.
 
 ## **Content**
-* 
-
-
-
+* The artwork used in this project was copied from the following websites:
+    * [ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN)
+    * [ASCII Art](https://www.asciiart.eu/holiday-and-events/christmas/snowmen)
 
 ## **Acknowledgments**
 * My Mentor Simen [Eventyret_mentor](https://github.com/Eventyret) for continuous helpful feedback.
