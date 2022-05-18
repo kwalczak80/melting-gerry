@@ -354,6 +354,12 @@ As a user, I want to know the word I was trying to guess when the game is over
     The test has passed all the criteria and works as planned.
 
 
+## **Acknowledgments**
+* My Mentor Simen [Eventyret_mentor](https://github.com/Eventyret) for continuous helpful feedback.
+* Code Institute's [Slack](https://app.slack.com/client/) community for their support.
+* [W3Schools](https://www.w3schools.com/python/) as an additional source of knowledge.
+* All family members and friends who helped test this game.
+
 
 
 
