@@ -352,10 +352,11 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     *Category selection section*
     
-    Only numbers from 1 -5 will be accepted when choosing a word category
+    Only numbers from 1 - 5 will be accepted when choosing a word category
     * E key will return to the main menu
 
     *Handling other user entries*
+
     If the user presses a key other than the required key, a message prompting the user to press the appropriate key will appear on the screen.
 	
 * **Testing**
