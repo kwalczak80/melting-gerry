@@ -92,17 +92,17 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * Coloured Text
 
     To achieve a better user experience, I decided to implement a simple color scheme to improve the overall user experience.
-    * The red color was used to highlight errors due to incorrect user entries.
+    * The red color is used to highlight errors due to incorrect user entries.
 
     ![Error message](docs/screenshots/error_message.PNG)
-    * The yellow color was used to inform the user that the letter they have chosen to guess the word is not in the word.
+    * The yellow color is used to inform the user that the letter they have chosen to guess the word is not in the word.
 
     ![Incorrect letter](docs/screenshots/incorrect_letter_message.PNG)
     * The green color is used to inform the user that the letter they had chosen to guess the word was correct. In addition, this color is used to display a congratulation message if the word is guessed correctly.
 
     ![Correct letter](docs/screenshots/correct_letter_message.PNG)
     ![Game won](docs/screenshots/game_won_message.PNG)
-    * The blue color was used to display information when the game is over and the word is not guessed correctly.
+    * The blue color is used to display information when the game is over and the word is not guessed correctly.
 
     ![Word not guessed](docs/screenshots/word_not_guessed_message.PNG)
 
