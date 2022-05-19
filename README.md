@@ -116,7 +116,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Art by Hayley Jane Wakenshaw
     * Art by jb
 
-    The final artwork was created by myself using two artworks mentioned above.
+    The final artwork was created by myself using the two artworks mentioned above.
 
     ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.PNG)
 
