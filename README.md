@@ -307,8 +307,8 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 ### **Manual testing**
 * The tests were performed on both the Gitpod terminal and the  Heroku terminal.
-* The tests were performed on each screen of the game by entering data out of acceptable range. No issues noted - all the user entries are handled correctly. 
-* Relevant message is displayed on the screen if the user entries are incorrect. See relavant screenshots in the **Features** section.
+* The tests were performed on each screen of the game by entering data outside of the acceptable range. No issues noted - all user entries are handled correctly. 
+* An appropriate message is displayed on the screen if the user's entries are incorrect. See relevant screenshots in the **Features** section.
 * Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported.
 
 [Back to Top](#table-of-contents)
