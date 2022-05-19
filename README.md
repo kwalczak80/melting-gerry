@@ -42,7 +42,7 @@ To save Gerry's life, the user has to find all of the letters in the word random
 ---
 
 ## **Flow Chart**
-The Lucid application was used to create a flow chart for the Melting Gerry game. The flowchart shown below helped me to identify all essential steps within the game and simultaneously offer the bigger picture of the project.
+The Lucid application was used to create a flow chart for the Melting Gerry game. The flowchart shown below helped me to identify all the essential steps within the game and simultaneously offer a bigger picture of the project.
 
 Creating a flowchart helped me find less obvious features of the program's algorithm, which were then refined to improve its performance, i.e., bottlenecks, flaws, and unnecessary steps. 
 
