@@ -237,9 +237,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 ---
 
 ## **Features to be implemented**
-* To have a record of users’ highest scores. 
+* To have a record of users’ scores. 
 
-    I plan to implement this idea by using a Google spreadsheet to store the number of guesses and the number of games won by each player. The user would receive information on which position they are in on the high score list after finishing the game and saving the results in a spreadsheet. There should also be an option in the game menu to display the high score list on the screen with limitations to the top 10 highest scores.
+    I plan to implement this idea by using a Google spreadsheet to store the number of words guessed by each player. After finishing the game and saving the results in a spreadsheet the user would receive information on which position, they are on the score list. There should also be an option in the game menu to display the high score list on the screen with limitations to the top 10 highest scores.
 
 [Back to Top](#table-of-contents)
 
