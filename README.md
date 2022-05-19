@@ -34,7 +34,7 @@ To save Gerry's life, the user has to find all of the letters in the word random
   * [**Manual testing**](#manual-testing)
 - [**Testing User Stories from the User Experience (UX) Section**](#testing-user-stories-from-the-user-experience-ux-section)
 - [**Bugs**](#bugs)
-  * [**Sovled bugs**](#sovled-bugs)
+  * [**Sovled bugs**](#solved-bugs)
   * [**Unfixed bugs**](#unfixed-bugs)
 - [**Content**](#content)
 - [**Acknowledgments**](#acknowledgments)
@@ -56,9 +56,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ### **User Goals**
 * The game is easy to navigate and provides appropriate functionality to entertain the user.
-* The game should have different categories of words the user can choose from.
+* The game should have different categories of words that the user can choose from.
 * Each category should contain words of varying difficulty to guess.
-* Each category should contain enough words to guess to provide the user with the appropriate level of entertainment.
+* Each category should have a sufficient number of words to guess to keep the user entertained.
 * The game rules are clearly explained.
 * The game should allow the user to continue to play after each game.
 * The user should know how many attempts are left to guess the word.
@@ -453,7 +453,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 ---
 
 ## **Bugs**
-### **Sovled bugs**
+### **Solved bugs**
 * Issue
     * The following message was displayed in the console during manual testing process : **NameError: name 'player_name' is not defined**.
       This issue was related to the local scope of the 'player_name' variable in *get_player_name* function.
