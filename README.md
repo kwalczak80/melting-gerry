@@ -127,14 +127,14 @@ Creating a flowchart helped me find less obvious features of the program's algor
 ## **Features**
 
 ### **User Name**
-* Once the program has been executed, the welcome screen is displayed informing the user about the game name.
+* Once the program has been executed, the welcome screen is displayed, informing the user about the game name.
 * The user is asked to enter their name before the game starts.
 
     ![Enter User Name](docs/screenshots/enter_user_name_screen.PNG)
 * Only alphabetical characters are allowed when entering the user name. Special characters, numbers, etc., will not be accepted.
 
     ![Player Name Not Alphabet Letters](docs/screenshots/player_name_alphabet_characters_only.PNG)
-* In addition, the user name cannot be longer than 20 letters.
+* In addition, the user name can not be longer than 20 letters.
 
     ![Player Name Too Long](docs/screenshots/player_name-max_20_characters.PNG)
 * If the user name has an incorrect format (blank), an appropriate message will be displayed on the screen.
@@ -147,7 +147,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * Once the player's name is entered, the game menu is displayed on the screen. To achieve a better user experience, I decided to have all the text information displayed in the middle of the console, which in my opinion, looks very nice.
 
     ![Menu](docs/screenshots/menu.PNG)
-* At this stage the user has three options:
+* At this stage, the user has three options:
     * Play game
     * Read instructions on how to play
     * Exit game
@@ -173,7 +173,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 [Back to Top](#table-of-contents)
 
 ### **Play game**
-* Before the game starts, the user will be asked to choose a category number from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
+* Before the game starts, the user will be asked to choose a category number from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary for each game. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
 * Currently, in the game, there are five-word categories to choose from:
     * Animals
     * Job and occupation
@@ -183,22 +183,22 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Category Selection](docs/screenshots/category_selection.PNG)
 
-* If the user selects a different option than is available, the following message will be displayed in the console.
+* If the user selects a different option than is available, the following message will be shown in the console.
 
     ![Category Selection Invalid Choice](docs/screenshots/category_selection_invalid_choice.PNG)
-* If the user decides to press the “E” key the main menu will be displayed again in the console.
-* If the correct category is selected by the user, the main game screen will be displayed.
+* If the user decides to press the “E” key, the main menu will be displayed again in the console.
+* If the correct category number is selected by the user, the main game screen will be displayed.
 
     ![Main Game Screen](docs/screenshots/main_game_screen.PNG)
 * During the game the following information is displayed on the screen:
-    * The number of attempts left to guess the word,
-    * The hidden word is represented by the underscore characters '_' The number of underscore characters equals the number of letters in the word to be guessed.
+    * The number of attempts left to guess the word.
+    * A hidden word that is represented by underscores '_' The number of underscores is equal to the number of letters in the word to be guessed.
     * Which letters have been already used to guess the word
-* Once the letter is entered by the user, the program checks if the letter is listed in the word. If not, information in yellow color is displayed on the screen to inform the user that the letter they selected is not correct. The used letters table will be updated automatically with the chosen letter. The number of attempts to finish the game will decrease.
+* Once the letter is entered by the user, the program checks if the letter is listed in the word. If not, information in yellow color is displayed on the screen to inform the user that the letter they selected is not listed in the word. The used letters table will be updated automatically with the chosen letter. The number of attempts to finish the game will decrease.
 * Snowman Gerry will start melting!!!
 
     ![Letter not in word message](docs/screenshots/letter_not_in_word.PNG)
-* If the letter entered by the player is correct, information in green color is displayed on the screen to inform the user that the letter they selected is correct. The used letters table will be updated automatically. The number of attempts to finish the game remains the same.
+* If the letter entered by the user is correct, information in green color is displayed on the screen to inform the user that the letter they selected is correct. The used letters table will be updated automatically. The number of attempts to finish the game remains the same.
 
     ![Letter in word message](docs/screenshots/letter_in_word_message.PNG)
 * Snowman Gerry is safe!!!
@@ -228,7 +228,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 [Back to Top](#table-of-contents)
 
 ###  **Exit game**
-* If the user hit the E key while in the main menu, the game will be terminated and the game exit screen will be displayed.
+* If the user hits the "E" key while in the main menu, the game will be terminated and the game exit screen will be displayed.
 
     ![Exit game](docs/screenshots/exit_game_message.PNG)
 
