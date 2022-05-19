@@ -329,7 +329,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     The game instructions are explained very well and they are easily accessible.
 * **Verdict**
 
-    The user has easy access to the game rules which are easily understandable.
+    The user has easy access to the easily understandable game rules.
 
 ### **As a user, I want the game to be intuitive and easy to navigate.**
 * **Plan**
@@ -370,10 +370,10 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     A simple navigation system has been implemented successfully.
 **
-### **As a user, I want to have an option to choose different word categories.**
+### **As a user, I want to have the option to choose different word categories.**
 * **Plan**
 
-    Provide the user with the ability to choose a category from which they will be guessing the word
+    Provide the user with the ability to choose a category from which they will be guessing the word.
 
 * **Implementation**
 
@@ -390,16 +390,16 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 * **Result**
 
-    Tests confirmed that the words are being loaded from each category.
+    Tests confirmed that the words were being loaded from each category.
 
 * **Verdict**
 
-    The user can choose from 5 different categories. Each category has a corresponding set of words to avoid the same word being randomized for guesswork.
+    The user can choose from five different categories. Each category has a corresponding set of words to minimize the chance that the same word is loaded twice in a row during the game.
 
 ### **As a user, I want to try to guess words of varying difficulty levels.**
 * **Plan**
     
-    Each category should contain words of varying length
+    Each category should contain words of varying lengths.
 
 * **Implementation**
     
@@ -408,11 +408,11 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     * [thegamegal.com](https://www.thegamegal.com/printables/)
 
 	The word banks available in the game are as follows:
-    * The animal category contains 88 words with word lengths ranging from three to twelve letters. 
-    * The job and occupation category contains 204 words with word lengths ranging from three to fifteen letters. 
-    * The fruit category contains 53 words with word lengths ranging from three to eleven letters. 
-    * The food category contains 58 words with word lengths ranging from three to ten letters. 
-    * The colors category contains 105 words with word lengths ranging from three to thirteen letters.  
+    * The animal category contains 88 words, with word lengths ranging from three to twelve letters. 
+    * The job and occupation category contains 204 words, with word lengths ranging from three to fifteen letters. 
+    * The fruit category contains 53 words, with word lengths ranging from three to eleven letters. 
+    * The food category contains 58 words, with word lengths ranging from three to ten letters. 
+    * The colors category contains 105 words, with word lengths ranging from three to thirteen letters.  
 
 * **Testing**
     
@@ -420,7 +420,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 * **Result**
 
-    Each category provides words of varying difficulty levels to guess which are correctly displayed on the screen.
+    Each category provides words of varying difficulty levels to guess, which are correctly displayed on the screen.
 
 * **Verdict**
 
@@ -433,20 +433,26 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     Display the word the user was trying to guess. 
 
 * **Implementation**
-    When the game is over, and the word is not guessed b the user, the word will be revealed and displayed on a new screen.
+
+    *The user did not guess the word.*
+
+    When the game is over, and the word is not guessed by the user, the word will be revealed and displayed on a new screen.
+    
+    *The user did guess the word.*
+    
     When the game is over and the word is guessed by the user, the word will be displayed on a new screen with a congratulations message.
 
 * **Testing**
     
-    Tests have been conducted numerous times to ensure that the word is displayed correctly when the game is over.
+    Tests have been conducted numerous times to ensure that the words are displayed correctly when the game is over.
 
 * **Result**
     
-    The user has the opportunity to find out what was the word they were trying to guess during the game
+    The user has the opportunity to find out what the word was they were trying to guess during the game.
 
 * **Verdict**
     
-    The test has passed all the criteria and works as planned.
+    The word that the user was trying to guess is displayed on the screen when the game is over.
 
 [Back to Top](#table-of-contents)
 
