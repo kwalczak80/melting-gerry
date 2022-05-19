@@ -439,7 +439,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     When the game is over, and the word is not guessed by the user, the word will be revealed and displayed on a new screen.
     
     *The user did guess the word.*
-    
+
     When the game is over and the word is guessed by the user, the word will be displayed on a new screen with a congratulations message.
 
 * **Testing**
@@ -461,8 +461,8 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 ## **Bugs**
 ### **Solved bugs**
 * Issue
-    * The following message was displayed in the console during manual testing process : **NameError: name 'player_name' is not defined**.
-      This issue was related to the local scope of the 'player_name' variable in *get_player_name* function.
+    * The following message was displayed in the console during the manual testing process : **NameError: name 'player_name' is not defined**.
+      This issue was related to the local scope of the 'player_name' variable in the *get_player_name* function.
 * Solution
     * Fixed by setting up *player_name* variable as global.
 ### **Unfixed bugs**
