@@ -349,7 +349,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 * **Verdict**
 
     A simple navigation system has been implemented successfully.
-**
+
 ### **As a user, I want to have the option to choose different word categories.**
 * **Plan**
 
