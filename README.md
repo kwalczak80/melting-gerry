@@ -251,7 +251,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 ## **Deployment**
 The project was deployed to Heroku following the steps below:
 * Commit changes and push them to GitHub.
-* Go to Heroku's website.
+* Go to [Heroku's](https://www.heroku.com) website.
 * Create an account or select login.
 * From the Heroku dashboard, click on **Create new app**.
 * Enter the **App name** and **Choose a region** before clicking on **Create app**.
@@ -262,7 +262,7 @@ The project was deployed to Heroku following the steps below:
 * Select **python** and click **Save changes**.
 * Add **nodejs** buildpack using the same process.
 
-Due to the current security breach in Heroku, the following steps were taken to deploy the game code to Heroku as automated deployments from GitHub has been disabled:
+Due to the current security breach in Heroku, the following steps were taken to deploy the game code to Heroku as automated deployments from GitHub have been disabled:
 * In the Gitpod console application enter **heroku login -i**. Note: For this project, the GitPod environment was created using a template provided by the Code Institute.Installation of [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) may be required if you are using any other programming environment. 
 * Log in with the email address used while creating the Heroku account.
 * Enter the password.
