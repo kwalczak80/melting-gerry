@@ -28,7 +28,6 @@ The game is quite challenging as the length of words to guess ranges from three 
   * [**Play game**](#play-game)
   * [**Exit game**](#exit-game)
 - [**Features to be implemented**](#features-to-be-implemented)
-- [**Deployment**](#deployment)
 - [**Technologies Used**](#technologies-used)
   * [**Languages**](#languages)
   * [**Tools**](#tools)
@@ -39,6 +38,7 @@ The game is quite challenging as the length of words to guess ranges from three 
 - [**Bugs**](#bugs)
   * [**Sovled bugs**](#solved-bugs)
   * [**Unfixed bugs**](#unfixed-bugs)
+- [**Deployment**](#deployment)
 - [**Content**](#content)
 - [**Acknowledgments**](#acknowledgments)
 
@@ -290,6 +290,8 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 * Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported.
 
 [Back to Top](#table-of-contents)
+
+---
 
 ## **Testing User Stories from the User Experience (UX) Section**
 ### **As a user, I want the game instructions to be easily accessible and easy to understand.**
