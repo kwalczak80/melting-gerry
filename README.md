@@ -47,7 +47,7 @@ The game is quite challenging as the length of words to guess ranges from three 
 ## **Flow Chart**
 The Lucid application was used to create a flow chart for the Melting Gerry game. The flowchart shown below helped me to identify all the essential steps within the game and simultaneously offer a bigger picture of the project.
 
-Creating a flowchart helped me find less obvious features of the program's algorithm, which were then refined to improve its performance, i.e., bottlenecks, flaws, and unnecessary steps. 
+Creating a flowchart helped me find less obvious features of the program's algorithm, which were then refined to improve its performance, i.e., bottlenecks, flaws, and unnecessary steps.
 
 ![Flow chart](docs/screenshots/flow_chart_of_melting_gerry_game.png)
 
@@ -156,7 +156,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
     * Exit game
 
     Short text information is displayed below the menu, informing which key needs to be pressed to select each option.        
-    If the user presses other keys than “P”, “I” or "E", then a message will be displayed to correctly enter one of the available options.
+    If the user presses other keys than **P**, **I** or **E**, then a message will be displayed to correctly enter one of the available options.
 
     ![Menu Not Valid Option Selected](docs/screenshots/menu_not_valid_option_selected.PNG)
 
@@ -167,8 +167,8 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     ![Game Instructions](docs/screenshots/game_instructions.PNG)
 * When the user is familiar with game instructions, they have two options:
-    * Play the game by pressing the “P” key.
-    * Return to the main menu by pressing the “E” key.
+    * Play the game by pressing the **P** key.
+    * Return to the main menu by pressing the **E** key.
 * If the user chooses a different option, a message will be displayed on the screen asking them to select a valid option.
 
     ![Game Instructions Choose Valid Option](docs/screenshots/game_instructions_choose_valid_option.PNG)
@@ -189,7 +189,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If the user selects a different option than is available, the following message will be shown in the console.
 
     ![Category Selection Invalid Choice](docs/screenshots/category_selection_invalid_choice.PNG)
-* If the user decides to press the “E” key, the main menu will be displayed again in the console.
+* If the user decides to press the **E** key, the main menu will be displayed again in the console.
 * If the correct category number is selected by the user, the main game screen will be displayed.
 
     ![Main Game Screen](docs/screenshots/main_game_screen.PNG)
@@ -215,23 +215,23 @@ Creating a flowchart helped me find less obvious features of the program's algor
 * If more than one letter is entered by the user, the following error message will be displayed to inform the user to enter only one letter at a time.
 
     ![More than one character entered message](docs/screenshots/more_that_one_character_entered_message.PNG)
-* When the number of attempts to save Gerry’s life is equal to zero, a new screen will be displayed informing the user that snowman Gerry has melted. At this stage, the user has the option to start the game again by pressing the “Y” key or exit the main menu by pressing the “N” key.
+* When the number of attempts to save Gerry’s life is equal to zero, a new screen will be displayed informing the user that snowman Gerry has melted. At this stage, the user has the option to start the game again by pressing the **Y** key or exit the main menu by pressing the **N** key.
 
     ![Game over word not guessed](docs/screenshots/game_over_word_not_guessed_message.PNG)
-* If any other option than “Y” or “N” is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
+* If any other option than **Y** or **N** is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
 
     ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
 * If the word is guessed correctly, a congratulations message is displayed on the screen. The user has the option to play the game again or exit to the main menu.
 
     ![Game over word guessed correctly](docs/screenshots/game_over_word_guessed_message.PNG)
-* If any other option than “Y” or “N” is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
+* If any other option than **Y** or **N** is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
 
     ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
 
 [Back to Top](#table-of-contents)
 
 ###  **Exit game**
-* If the user hits the "E" key while in the main menu, the game will be terminated and the game exit screen will be displayed.
+* If the user hits the **E** key while in the main menu, the game will be terminated and the game exit screen will be displayed.
 
     ![Exit game](docs/screenshots/exit_game_message.PNG)
 
