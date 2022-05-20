@@ -1,4 +1,5 @@
-# **Melting Gerry**
+# Melting Gerry
+
 The Melting Gerry game is a word game where the goal is to guess the word by selecting different letters until the word is completely guessed.
 The main character of this game is a snowman named Gerry.
 
@@ -10,9 +11,8 @@ The game is quite challenging as the length of words to guess ranges from three 
 
 ---
 
-<a></a>
-
 ## Table of contents
+
 - [**Flow Chart**](#flow-chart)
 - [**User Experience (UX)**](#user-experience--ux)
   * [**User Goals**](#user-goals)
