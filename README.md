@@ -2,7 +2,9 @@
 The Melting Gerry game is a word game where the goal is to guess the word by selecting different letters until the word is completely guessed.
 The main character of this game is a snowman named Gerry.
 
-To save Gerry's life, the user has to find all of the letters in the word randomly selected by the computer from one of the five available categories. Each wrong guess will cause Gerry to start melting. The user has six attempts to guess the word before Gerry gets melted. The game is quite challenging as the length of words to guess ranges from three to even fifteen letters. Additionally, in order to keep the user entertained for a long time, I have made sure that the number of words available for guessing is adequate - there are over 500 words at the moment.
+To save Gerry's life, the user has to find all of the letters in the word randomly selected by the computer from one of the five available categories. Each wrong guess will cause Gerry to start melting. The user has six attempts to guess the word before Gerry gets melted.
+
+The game is quite challenging as the length of words to guess ranges from three to even fifteen letters. Additionally, in order to keep the user entertained for a long time, I have made sure that the number of words available for guessing is adequate - there are over 500 words at the moment.
 
 [View the live project here](https://melting-gerry.herokuapp.com/)
 
