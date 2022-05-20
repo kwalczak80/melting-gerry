@@ -248,31 +248,6 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **Deployment**
-The project was deployed to Heroku following the steps below:
-* Commit changes and push them to GitHub.
-* Go to [Heroku's](https://www.heroku.com) website.
-* Create an account or select login.
-* From the Heroku dashboard, click on **Create new app**.
-* Enter the **App name** and **Choose a region** before clicking on **Create app**.
-* Select **Config Vars** under the **Settings** tab.
-* Click on **Reveals Config Vars**.
-* Add in the Config Var, **KEY: PORT**, and **VALUE: 8000**.
-* Click on the **Buildpacks** section and click **Add buildpack**.
-* Select **python** and click **Save changes**.
-* Add **nodejs** buildpack using the same process.
-
-Due to the current security breach in Heroku, the following steps were taken to deploy the game code to Heroku as automated deployments from GitHub have been disabled:
-* In the Gitpod console application enter **heroku login -i**. Note: For this project, the GitPod environment was created using a template provided by the Code Institute.Installation of [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) may be required if you are using any other programming environment. 
-* Log in with the email address used while creating the Heroku account.
-* Enter the password.
-* Enter **heroku git: remote -a** followed by the project's name on Heroku (in this case, **heroku git:remote -a melting-gerry**).
-* Once the code is ready to be deployed enter **git push heroku main** in the console to deploy to Heroku.
-
-[Back to Top](#table-of-contents)
-
----
-
 ## **Technologies Used**
 
 ### **Languages**
@@ -470,6 +445,31 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     * Fixed by setting up *player_name* variable as global.
 ### **Unfixed bugs**
 * None currently known
+
+[Back to Top](#table-of-contents)
+
+---
+
+## **Deployment**
+The project was deployed to Heroku following the steps below:
+* Commit changes and push them to GitHub.
+* Go to [Heroku's](https://www.heroku.com) website.
+* Create an account or select login.
+* From the Heroku dashboard, click on **Create new app**.
+* Enter the **App name** and **Choose a region** before clicking on **Create app**.
+* Select **Config Vars** under the **Settings** tab.
+* Click on **Reveals Config Vars**.
+* Add in the Config Var, **KEY: PORT**, and **VALUE: 8000**.
+* Click on the **Buildpacks** section and click **Add buildpack**.
+* Select **python** and click **Save changes**.
+* Add **nodejs** buildpack using the same process.
+
+Due to the current security breach in Heroku, the following steps were taken to deploy the game code to Heroku as automated deployments from GitHub have been disabled:
+* In the Gitpod console application enter **heroku login -i**. Note: For this project, the GitPod environment was created using a template provided by the Code Institute.Installation of [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) may be required if you are using any other programming environment.
+* Log in with the email address used while creating the Heroku account.
+* Enter the password.
+* Enter **heroku git: remote -a** followed by the project's name on Heroku (in this case, **heroku git:remote -a melting-gerry**).
+* Once the code is ready to be deployed enter **git push heroku main** in the console to deploy to Heroku.
 
 [Back to Top](#table-of-contents)
 
