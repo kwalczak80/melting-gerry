@@ -300,10 +300,10 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     Describe the game rules in a very simple way and ensure the user has easy access to read them.
 * **Implementation**
 
-    When the user selects to read the game instructions by pressing the “I” key in the main menu, a new screen in the console will be displayed with the rules of the game.
+    When the user selects to read the game instructions by pressing the **I** key in the main menu, a new screen in the console will be displayed with the rules of the game.
 * **Testing**
 
-    Tests have been conducted numerous times to ensure that the game rules are displayed correctly after pressing the "I" key from the main menu. In addition, many of my friends who were testing this game confirmed that the game rules are explained very well in a clear and very understandable form.
+    Tests have been conducted numerous times to ensure that the game rules are displayed correctly after pressing the **I** key from the main menu. In addition, many of my friends who were testing this game confirmed that the game rules are explained very well in a clear and very understandable form.
 * **Result**
 
     The game instructions are explained very well and they are easily accessible.
@@ -320,20 +320,20 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
     *Main menu section*
     
     The following letters are being used to ensure easy navigation in the main menu:
-    * P key will start the game,
-    * I key will display the game instructions,
-    * E key will exit the game.
+    * **P** key will start the game,
+    * **I** key will display the game instructions,
+    * **E** key will exit the game.
 
     *Instructions how to play section*
 
     The following letters are used to ensure easy navigation in the section where the game instructions are displayed:
-    * P key will start the game,
-    * E key will return to the main menu
+    * **P** key will start the game,
+    * **E** key will return to the main menu
 
     *Category selection section*
     
-    Only numbers from 1 - 5 will be accepted when choosing a word category
-    * E key will return to the main menu
+    Only numbers from **1 - 5** will be accepted when choosing a word category
+    * **E** key will return to the main menu
 
     *Handling other user entries*
 
@@ -384,8 +384,8 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 * **Implementation**
     
     The following websites were visited to build word banks for each category.
-    * [enchantedlearning.com](https://www.enchantedlearning.com/wordlist/)
-    * [thegamegal.com](https://www.thegamegal.com/printables/)
+    * [Enchanted Learning](https://www.enchantedlearning.com/wordlist/)
+    * [The Game Gal](https://www.thegamegal.com/printables/)
 
 	The word banks available in the game are as follows:
     * The animal category contains 88 words, with word lengths ranging from three to twelve letters. 
