@@ -442,9 +442,9 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 ### **Solved bugs**
 * Issue
     * The following message was displayed in the console during the manual testing process : **NameError: name 'player_name' is not defined**.
-      This issue was related to the local scope of the 'player_name' variable in the *get_player_name* function.
+      This issue was related to the local scope of the `player_name` variable in the `get_player_name` function.
 * Solution
-    * Fixed by setting up *player_name* variable as global.
+    * Fixed by setting up `player_name` variable as global.
 ### **Unfixed bugs**
 * None currently known
 
