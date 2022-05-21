@@ -304,13 +304,21 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
   ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.png)
 
-- Initial Artwork Validator Testing
+- Initial Artwork Validator Testing - 7 warnings were presented.
 
   ![Initial Artwork Validator Testing](docs/screenshots/initial_artwork_validator_testing.png)
 
-- Final Art Validator Testing
+- Final Artwork Validator Testing - all issues fixed.
 
   ![Final Artwork Validator Testing](docs/screenshots/final_artwork_validator_testing.png)
+
+- Initial Categories Validator Testing - 1 warrinig was presented.
+
+  ![Initial Categories Validator Testing](docs/screenshots/initial_categories_validator_testing.png)
+
+- Final Categories Validator Testing - all issues fixed.
+
+  ![Final Categories Validator Testing](docs/screenshots/final_categories_validator_testing.png)
 
 [Back to Top](#table-of-contents)
 
