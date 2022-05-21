@@ -120,7 +120,7 @@ def get_player_name():
         player_name = input("Please enter your name:\n".center(width)).strip()
         if player_name == "":
             clear_header()
-            print_error_message("The player name cannot "
+            print_error_message("The player's name cannot "
                                 "be blank !!\n".center(width))
         elif not player_name.isalpha():
             clear_header()
