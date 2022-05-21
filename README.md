@@ -33,7 +33,6 @@ The game is quite challenging as the length of words to guess ranges from three 
   - [Tools](#tools)
 - [Testing](#testing)
   - [PEP8](#pep8)
-  - [Manual testing](#manual-testing)
 - [Testing User Stories from the User Experience (UX) Section](#testing-user-stories-from-the-user-experience-ux-section)
 - [Bugs](#bugs)
   - [Sovled bugs](#solved-bugs)
@@ -319,15 +318,6 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 - Final Categories Validator Testing - all issues fixed.
 
   ![Final Categories Validator Testing](docs/screenshots/final_categories_validator_testing.png)
-
-[Back to Top](#table-of-contents)
-
-### Manual testing
-
-- The tests were performed on both the Gitpod terminal and the  Heroku terminal.
-- The tests were performed on each screen of the game by entering data outside of the acceptable range. No issues noted - all user entries are handled correctly.
-- An appropriate message is displayed on the screen if the user's entries are incorrect. See relevant screenshots in the **Features** section.
-- Friends and family members were asked to review the game and provide their feedback about the UX, bugs, etc. No issues were reported.
 
 [Back to Top](#table-of-contents)
 
