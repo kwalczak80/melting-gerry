@@ -538,6 +538,9 @@ Due to the current security breach in Heroku, the following steps were taken to 
   - [Enchanted Learning](https://www.enchantedlearning.com/wordlist/)
   - [The Game Gal](https://www.thegamegal.com/printables/)
 
+- The following website was visited to learn how to output colored text to the terminal in Python.
+  - [Stack Overflow](https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal)
+
 [Back to Top](#table-of-contents)
 
 ---
