@@ -348,25 +348,25 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 - **Implementation**
 
-    *Main menu section*
+  - _Main menu section_
 
     The following letters are being used to ensure easy navigation in the main menu:
-  - **P** key will start the game,
-  - **I** key will display the game instructions,
-  - **E** key will exit the game.
+    - **P** key will start the game.
+    - **I** key will display the game instructions.
+    - **E** key will exit the game.
 
-    *Instructions how to play section*
+  - _Instructions how to play section_
 
     The following letters are used to ensure easy navigation in the section where the game instructions are displayed:
-  - **P** key will start the game,
-  - **E** key will return to the main menu
+    - **P** key will start the game.
+    - **E** key will return to the main menu.
 
-    *Category selection section*
+  - _Category selection section_
 
     Only numbers from **1 - 5** will be accepted when choosing a word category
-  - **E** key will return to the main menu
+    - **E** key will return to the main menu
 
-    *Handling other user entries*
+  - _Handling other user entries_
 
     If the user presses a key other than the required key, a message prompting the user to press the appropriate key will appear on the screen.
 
