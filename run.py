@@ -73,7 +73,7 @@ def display_game_name():
 
 def clear_header():
     """
-    Function to clear screen and display game name
+    Function to clear screen and display the game name
     """
     clear_screen()
     display_game_name()
