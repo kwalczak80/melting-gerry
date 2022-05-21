@@ -88,7 +88,7 @@ def print_error_message(text):
 
 def print_correct_guess(correct_guess_text):
     """
-    Function to prints text in green color
+    Function to print text in green color
     is user guessed the letter or word correctly
     """
     print(f"{TextColor.GREEN}{correct_guess_text}{TextColor.ENDC}")
@@ -96,7 +96,7 @@ def print_correct_guess(correct_guess_text):
 
 def print_incorrect_guess(incorrect_guess_text):
     """
-    Function to prints text in yellow color
+    Function to print text in yellow color
     is user guessed the letter or word incorrectly
     """
     print(f"{TextColor.WARNING}{incorrect_guess_text}{TextColor.ENDC}")
@@ -104,8 +104,8 @@ def print_incorrect_guess(incorrect_guess_text):
 
 def print_hidden_word(hidden_word):
     """
-    Prints text in blue color is user
-    guessed the letter or word incorrectly
+    Print text in blue color if user did not
+    guess the word correctly
     """
     print(f"{TextColor.BLUE}{hidden_word}{TextColor.ENDC}")
 
@@ -215,7 +215,7 @@ def word_category_selection():
 
 def display_instructions():
     """
-    Function to display game instructions
+    Function to display the game instructions
     with option to return to main menu
     """
     print_text_in_the_middle_of_console("Select a category from which you "
@@ -315,7 +315,7 @@ def play_game(word):
 
 def restart_game(player_name):
     """
-    Function to ask user
+    Function to ask the user
     if they want to start a new game
     """
     while True:
