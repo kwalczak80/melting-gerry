@@ -44,7 +44,7 @@ The game is quite challenging as the length of words to guess ranges from three 
 
 ---
 
-## **Flow Chart**
+## Flow Chart
 
 The Lucid application was used to create a flow chart for the Melting Gerry game. The flowchart shown below helped me to identify all the essential steps within the game and simultaneously offer a bigger picture of the project.
 
@@ -56,9 +56,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **User Experience (UX)**
+## User Experience (UX)
 
-### **User Goals**
+### User Goals
 
 - The game is easy to navigate and provides appropriate functionality to entertain the user.
 - The game should have different categories of words that the user can choose from.
@@ -72,7 +72,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **User Stories**
+### User Stories
 
 - As a user, I want the game instructions to be easily accessible and easy to understand.
 - As a user, I want the game to be intuitive and easy to navigate.
@@ -82,7 +82,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **Site owners Goals**
+### Site owners Goals
 
 - To have an easy-to-navigate and entertaining website where users can spend some time enjoying the Melting Gerry game.
 - To have different word categories so the user can have an option to try to guess different words.
@@ -93,9 +93,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **Design**
+## Design
 
-### **Colors**
+### Colors
 
 - Coloured Text
 
@@ -116,7 +116,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **Artwork**
+### Artwork
 
 - The main “Snowman” logo was created using the [Text to ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN) with some small     modifications from the originally generated artwork.
   ![Main Logo](docs/screenshots/main_logo.png)
@@ -133,9 +133,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **Features**
+## Features
 
-### **User Name**
+### User Name
 
 - Once the program has been executed, the welcome screen is displayed, informing the user about the game name.
 - The user is asked to enter their name before the game starts.
@@ -156,7 +156,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **Menu**
+### Menu
 
 - Once the player's name is entered, the game menu is displayed on the screen. To achieve a better user experience, I decided to have all the text information displayed in the middle of the console, which in my opinion, looks very nice.
 
@@ -174,7 +174,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **Instructions how to play**
+### Instructions how to play
 
 - Once the user selects to read the game instructions, the following screen will be displayed in the console window. The game instructions are very simple and easy to follow.
 
@@ -188,7 +188,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **Play game**
+### Play game
 
 - Before the game starts, the user will be asked to choose a category number from which the random word will be selected. The game is challenging; therefore, the difficulty of guessing the word will vary for each game. Some words can only contain three letters to guess, while others can even have fifteen letters (random selection).
 - Currently, in the game, there are five-word categories to choose from:
@@ -244,7 +244,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 [Back to Top](#table-of-contents)
 
-### **Exit game**
+### Exit game
 
 - If the user hits the **E** key while in the main menu, the game will be terminated and the game exit screen will be displayed.
 
@@ -254,7 +254,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **Features to be implemented**
+## Features to be implemented
 
 - To have a record of users’ scores.
 
@@ -264,13 +264,13 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **Technologies Used**
+## Technologies Used
 
-### **Languages**
+### Languages
 
 - [Python](https://www.python.org/)
 
-### **Tools**
+### Tools
 
 - [Github](https://github.com/)
   - Used to store all the project files written in Gitpod.
@@ -290,9 +290,9 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 ---
 
-## **Testing**
+## Testing
 
-### **PEP8**
+### PEP8
 
 The code has been tested using [PEP8 Online](http://pep8online.com/)
 
@@ -306,7 +306,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 [Back to Top](#table-of-contents)
 
-### **Manual testing**
+### Manual testing
 
 - The tests were performed on both the Gitpod terminal and the  Heroku terminal.
 - The tests were performed on each screen of the game by entering data outside of the acceptable range. No issues noted - all user entries are handled correctly.
@@ -317,9 +317,9 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 ---
 
-## **Testing User Stories from the User Experience (UX) Section**
+## Testing User Stories from the User Experience (UX) Section
 
-### **As a user, I want the game instructions to be easily accessible and easy to understand.**
+### As a user, I want the game instructions to be easily accessible and easy to understand
 
 - **Plan**
 
@@ -381,7 +381,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     A simple navigation system has been implemented successfully.
 
-### **As a user, I want to have the option to choose different word categories.**
+### As a user, I want to have the option to choose different word categories
 
 - **Plan**
 
@@ -408,7 +408,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     The user can choose from five different categories. Each category has a corresponding set of words to minimize the chance that the same word is loaded twice in a row during the game.
 
-### **As a user, I want to try to guess words of varying difficulty levels.**
+### As a user, I want to try to guess words of varying difficulty levels
 
 - **Plan**
 
@@ -440,7 +440,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     The game provides words to be guessed of varying difficulty levels for each category.
 
-### **As a user, I want to know the word I was trying to guess when the game is over.**
+### As a user, I want to know the word I was trying to guess when the game is over.
 
 - **Plan**
 
@@ -472,9 +472,9 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 ---
 
-## **Bugs**
+## Bugs
 
-### **Solved bugs**
+### Solved bugs
 
 - Issue
   - The following message was displayed in the console during the manual testing process : **NameError: name 'player_name' is not defined**.
@@ -483,7 +483,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 - Solution
   - Fixed by setting up `player_name` variable as global.
 
-### **Unfixed bugs**
+### Unfixed bugs
 
 - None currently known
 
@@ -491,7 +491,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 ---
 
-## **Deployment**
+## Deployment
 
 The project was deployed to Heroku following the steps below:
 
@@ -519,7 +519,7 @@ Due to the current security breach in Heroku, the following steps were taken to 
 
 ---
 
-## **Content**
+## Content
 
 - The artwork used in this project was copied from the following websites:
   - [ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN)
@@ -533,7 +533,7 @@ Due to the current security breach in Heroku, the following steps were taken to 
 
 ---
 
-## **Acknowledgments**
+## Acknowledgments
 
 - My Mentor Simen [Eventyret_mentor](https://github.com/Eventyret) for continuous helpful feedback.
 
