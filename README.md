@@ -474,6 +474,9 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     The word that the user was trying to guess is displayed on the screen when the game is over.
 
+All tests from the Testing User Stories section were performed on both the Gitpod terminal and the Heroku terminal.
+Additional tests were also performed on each screen of the game by entering data outside of the acceptable range. No issues noted - all user entries are handled correctly.
+
 [Back to Top](#table-of-contents)
 
 ---
