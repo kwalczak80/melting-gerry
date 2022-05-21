@@ -312,7 +312,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
   ![Final Artwork Validator Testing](docs/screenshots/final_artwork_validator_testing.png)
 
-- Initial Categories Validator Testing - 1 warrinig was presented.
+- Initial Categories Validator Testing - 1 warninig was presented.
 
   ![Initial Categories Validator Testing](docs/screenshots/initial_categories_validator_testing.png)
 
