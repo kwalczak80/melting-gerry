@@ -21,7 +21,7 @@ width = os.get_terminal_size().columns
 class TextColor:
     '''
     Class to define text colors
-    printed in termianal
+    printed in terminal
     '''
     BLUE = '\033[94m'
     GREEN = '\033[92m'
