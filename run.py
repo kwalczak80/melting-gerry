@@ -8,10 +8,10 @@ import random
 # Import statements I created for this game.
 from utils.artwork import display_snowman
 from utils.categories import (animal_words,
-                             job_and_occupation_words,
-                             fruit_words,
-                             food_words,
-                             color_words)
+                              job_and_occupation_words,
+                              fruit_words,
+                              food_words,
+                              color_words)
 
 
 # Used to query the size of a terminal
@@ -23,8 +23,8 @@ class TextColor:
     Class to define text colors
     printed in termianal
     '''
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
     WARNING = '\033[93m'
     FAIL = '\033[91m'
     ENDC = '\033[0m'
@@ -91,7 +91,7 @@ def print_correct_guess(correct_guess_text):
     Function to prints text in green color
     is user guessed the letter or word correctly
     """
-    print(f"{TextColor.OKGREEN}{correct_guess_text}{TextColor.ENDC}")
+    print(f"{TextColor.GREEN}{correct_guess_text}{TextColor.ENDC}")
 
 
 def print_incorrect_guess(incorrect_guess_text):
@@ -107,7 +107,7 @@ def print_hidden_word(hidden_word):
     Prints text in blue color is user
     guessed the letter or word incorrectly
     """
-    print(f"{TextColor.OKBLUE}{hidden_word}{TextColor.ENDC}")
+    print(f"{TextColor.BLUE}{hidden_word}{TextColor.ENDC}")
 
 
 def get_player_name():
