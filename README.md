@@ -14,7 +14,7 @@ The game is quite challenging as the length of words to guess ranges from three 
 ## Table of contents
 
 - [Flow Chart](#flow-chart)
-- [User Experience (UX)](#user-experience--ux)
+- [User Experience (UX)](#user-experience-ux)
   - [User Goals](#user-goals)
   - [User Stories](#user-stories)
   - [Site owners Goals](#site-owners-goals)
