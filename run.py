@@ -129,7 +129,7 @@ def get_player_name():
                                 "characters.\n".center(width))
         elif (len(player_name) > 20):
             clear_header()
-            print_error_message("The player's name is too long"
+            print_error_message("The player's name is too long "
                                 "- max 20 characters !!\n".center(width))
         else:
             clear_screen()
