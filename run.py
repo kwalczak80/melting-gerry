@@ -25,8 +25,8 @@ class TextColor:
     '''
     BLUE = '\033[94m'
     GREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
     ENDC = '\033[0m'
 
 
@@ -83,7 +83,7 @@ def print_error_message(text):
     """
     Function to print error message in red color
     """
-    print(f"{TextColor.FAIL}{text}{TextColor.ENDC}")
+    print(f"{TextColor.RED}{text}{TextColor.ENDC}")
 
 
 def print_correct_guess(correct_guess_text):
@@ -99,7 +99,7 @@ def print_incorrect_guess(incorrect_guess_text):
     Function to print text in yellow color
     is user guessed the letter or word incorrectly
     """
-    print(f"{TextColor.WARNING}{incorrect_guess_text}{TextColor.ENDC}")
+    print(f"{TextColor.YELLOW}{incorrect_guess_text}{TextColor.ENDC}")
 
 
 def print_hidden_word(hidden_word):
