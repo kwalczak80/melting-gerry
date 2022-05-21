@@ -304,6 +304,14 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
   ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.png)
 
+- Initial Artwork Validator Testing
+
+  ![Initial Artwork Validator Testing](docs/screenshots/initial_artwork_validator_testing.png)
+
+- Final Art Validator Testing
+
+  ![Final Artwork Validator Testing](docs/screenshots/final_artwork_validator_testing.png)
+
 [Back to Top](#table-of-contents)
 
 ### Manual testing
