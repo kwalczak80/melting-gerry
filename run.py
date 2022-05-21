@@ -124,12 +124,12 @@ def get_player_name():
                                 "be blank !!\n".center(width))
         elif not player_name.isalpha():
             clear_header()
-            print_error_message("The player name may only "
+            print_error_message("The player's name may only "
                                 "contain alphabetic "
                                 "characters.\n".center(width))
         elif (len(player_name) > 20):
             clear_header()
-            print_error_message("The player name is too long"
+            print_error_message("The player's name is too long"
                                 "- max 20 characters !!\n".center(width))
         else:
             clear_screen()
