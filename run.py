@@ -6,8 +6,8 @@ import os
 import sys
 import random
 # Import statements I created for this game.
-from snowman_gerry import display_snowman
-from word_categories import (animal_words,
+from utils.artwork import display_snowman
+from utils.categories import (animal_words,
                              job_and_occupation_words,
                              fruit_words,
                              food_words,
