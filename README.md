@@ -363,7 +363,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
   - _Instructions how to play section_
 
-    The following letters are used to ensure easy navigation in the section where the game instructions are displayed:
+    The following letters are being used to ensure easy navigation in the section where the game instructions are displayed:
     - **P** key will start the game.
     - **E** key will return to the main menu.
 
