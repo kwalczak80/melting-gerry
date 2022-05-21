@@ -296,11 +296,11 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 The code has been tested using [PEP8 Online](http://pep8online.com/)
 
-- Initial Validator Testing
+- Initial Validator Testing - six warnings and one error were presented.
 
   ![Initial Validator Testing](docs/screenshots/initial_validator_testing.png)
 
-- Final Validator Testing
+- Final Validator Testing - all issues fixed.
 
   ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.png)
 
@@ -440,7 +440,7 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
     The game provides words to be guessed of varying difficulty levels for each category.
 
-### As a user, I want to know the word I was trying to guess when the game is over.
+### As a user, I want to know the word I was trying to guess when the game is over
 
 - **Plan**
 
