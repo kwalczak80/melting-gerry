@@ -454,13 +454,13 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 - **Implementation**
 
-    *The user did not guess the word.*
+  - _The user did not guess the word_
 
-    When the game is over, and the word is not guessed by the user, the word will be revealed and displayed on a new screen.
+    - When the game is over, and the word is not guessed by the user, the word will be revealed and displayed on a new screen.
 
-    *The user did guess the word.*
+  - _The user did guess the word_
 
-    When the game is over and the word is guessed by the user, the word will be displayed on a new screen with a congratulations message.
+    - When the game is over and the word is guessed by the user, the word will be displayed on a new screen with a congratulations message.
 
 - **Testing**
 
