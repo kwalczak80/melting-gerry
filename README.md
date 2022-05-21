@@ -102,24 +102,24 @@ Creating a flowchart helped me find less obvious features of the program's algor
     To achieve a better user experience, I decided to implement a simple color scheme to improve the overall user experience.
   - The red color is used to highlight errors due to incorrect user entries.
 
-  ![Error message](docs/screenshots/error_message.PNG)
+  ![Error message](docs/screenshots/error_message.png)
   - The yellow color is used to inform the user that the letter they have chosen to guess the word is not in the word.
 
-  ![Incorrect letter](docs/screenshots/incorrect_letter_message.PNG)
+  ![Incorrect letter](docs/screenshots/incorrect_letter_message.png)
   - The green color is used to inform the user that the letter they had chosen to guess the word was correct. In addition, this color is used to display a congratulation message if the word is guessed correctly.
 
-  ![Correct letter](docs/screenshots/correct_letter_message.PNG)
-  ![Game won](docs/screenshots/game_won_message.PNG)
+  ![Correct letter](docs/screenshots/correct_letter_message.png)
+  ![Game won](docs/screenshots/game_won_message.png)
   - The blue color is used to display information when the game is over and the word is not guessed correctly.
 
-  ![Word not guessed](docs/screenshots/word_not_guessed_message.PNG)
+  ![Word not guessed](docs/screenshots/word_not_guessed_message.png)
 
 [Back to Top](#table-of-contents)
 
 ### **Artwork**
 
 - The main “Snowman” logo was created using the [Text to ASCII ART Generator](https://patorjk.com/software/taag/#p=testall&h=3&f=Big&t=SNOWMAN) with some small     modifications from the originally generated artwork.
-  ![Main Logo](docs/screenshots/main_logo.PNG)
+  ![Main Logo](docs/screenshots/main_logo.png)
 
 - The artwork of Gerry the Snowman is a mix of two artworks found on [ASCII Art](https://www.asciiart.eu/holiday-and-events/christmas/snowmen)
   - Art by Hayley Jane Wakenshaw
@@ -127,7 +127,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
     The final artwork was created by myself using the two artworks mentioned above.
 
-  ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.PNG)
+  ![Snowman Gerry](docs/screenshots/artwork_of_gerry_the_snowman.png)
 
 [Back to Top](#table-of-contents)
 
@@ -140,19 +140,19 @@ Creating a flowchart helped me find less obvious features of the program's algor
 - Once the program has been executed, the welcome screen is displayed, informing the user about the game name.
 - The user is asked to enter their name before the game starts.
 
-  ![Enter User Name](docs/screenshots/enter_user_name_screen.PNG)
+  ![Enter User Name](docs/screenshots/enter_user_name_screen.png)
 
 - Only alphabetical characters are allowed when entering the user name. Special characters, numbers, etc., will not be accepted.
 
-  ![Player Name Not Alphabet Letters](docs/screenshots/player_name_alphabet_characters_only.PNG)
+  ![Player Name Not Alphabet Letters](docs/screenshots/player_name_alphabet_characters_only.png)
 
 - In addition, the user name can not be longer than 20 letters.
 
-  ![Player Name Too Long](docs/screenshots/player_name-max_20_characters.PNG)
+  ![Player Name Too Long](docs/screenshots/player_name_max_20_characters.png)
 
 - If the user name has an incorrect format (blank), an appropriate message will be displayed on the screen.
 
-  ![Player Name Blank](docs/screenshots/player_name_blank.PNG)
+  ![Player Name Blank](docs/screenshots/player_name_blank.png)
 
 [Back to Top](#table-of-contents)
 
@@ -160,7 +160,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 - Once the player's name is entered, the game menu is displayed on the screen. To achieve a better user experience, I decided to have all the text information displayed in the middle of the console, which in my opinion, looks very nice.
 
-  ![Menu](docs/screenshots/menu.PNG)
+  ![Menu](docs/screenshots/menu.png)
 
 - At this stage, the user has three options:
   - Play game
@@ -170,7 +170,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
     Short text information is displayed below the menu, informing which key needs to be pressed to select each option.
     If the user presses other keys than **P**, **I** or **E**, then a message will be displayed to correctly enter one of the available options.
 
-  ![Menu Not Valid Option Selected](docs/screenshots/menu_not_valid_option_selected.PNG)
+  ![Menu Not Valid Option Selected](docs/screenshots/menu_not_valid_option_selected.png)
 
 [Back to Top](#table-of-contents)
 
@@ -178,13 +178,13 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 - Once the user selects to read the game instructions, the following screen will be displayed in the console window. The game instructions are very simple and easy to follow.
 
-  ![Game Instructions](docs/screenshots/game_instructions.PNG)
+  ![Game Instructions](docs/screenshots/game_instructions.png)
 - When the user is familiar with game instructions, they have two options:
   - Play the game by pressing the **P** key.
   - Return to the main menu by pressing the **E** key.
 - If the user chooses a different option, a message will be displayed on the screen asking them to select a valid option.
 
-  ![Game Instructions Choose Valid Option](docs/screenshots/game_instructions_choose_valid_option.PNG)
+  ![Game Instructions Choose Valid Option](docs/screenshots/game_instructions_choose_valid_option.png)
 
 [Back to Top](#table-of-contents)
 
@@ -198,15 +198,15 @@ Creating a flowchart helped me find less obvious features of the program's algor
   - Food
   - Colors
 
-  ![Category Selection](docs/screenshots/category_selection.PNG)
+  ![Category Selection](docs/screenshots/category_selection.png)
 
 - If the user selects a different option than is available, the following message will be shown in the console.
 
-  ![Category Selection Invalid Choice](docs/screenshots/category_selection_invalid_choice.PNG)
+  ![Category Selection Invalid Choice](docs/screenshots/category_selection_invalid_choice.png)
 - If the user decides to press the **E** key, the main menu will be displayed again in the console.
 - If the correct category number is selected by the user, the main game screen will be displayed.
 
-  ![Main Game Screen](docs/screenshots/main_game_screen.PNG)
+  ![Main Game Screen](docs/screenshots/main_game_screen.png)
 - During the game the following information is displayed on the screen:
   - The number of attempts left to guess the word.
   - A hidden word that is represented by underscores '_' The number of underscores is equal to the number of letters in the word to be guessed.
@@ -214,33 +214,33 @@ Creating a flowchart helped me find less obvious features of the program's algor
 - Once the letter is entered by the user, the program checks if the letter is listed in the word. If not, information in yellow color is displayed on the screen to inform the user that the letter they selected is not listed in the word. The used letters table will be updated automatically with the chosen letter. The number of attempts to finish the game will decrease.
 - Snowman Gerry will start melting!!!
 
-  ![Letter not in word message](docs/screenshots/letter_not_in_word.PNG)
+  ![Letter not in word message](docs/screenshots/letter_not_in_word.png)
 - If the letter entered by the user is correct, information in green color is displayed on the screen to inform the user that the letter they selected is correct. The used letters table will be updated automatically. The number of attempts to finish the game remains the same.
 
-  ![Letter in word message](docs/screenshots/letter_in_word_message.PNG)
+  ![Letter in word message](docs/screenshots/letter_in_word_message.png)
 - Snowman Gerry is safe!!!
 - If the same letter is entered by the user again, the following message is displayed on the screen. The used letters table is not updated as the letter is already being used. The number of attempts to finish the game is not changed either.
 
-  ![Letter already used message](docs/screenshots/letter_already_used_message.PNG)
+  ![Letter already used message](docs/screenshots/letter_already_used_message.png)
 - If the user enters a character other than the letter, the appropriate information will be displayed in the console.
 - The number of attempts left to finish the game remains the same.
 
-  ![Incorrect character entered message](docs/screenshots/incorrect_character_entered_message.PNG)
+  ![Incorrect character entered message](docs/screenshots/incorrect_character_entered_message.png)
 - If more than one letter is entered by the user, the following error message will be displayed to inform the user to enter only one letter at a time.
 
-  ![More than one character entered message](docs/screenshots/more_that_one_character_entered_message.PNG)
+  ![More than one character entered message](docs/screenshots/more_that_one_character_entered_message.png)
 - When the number of attempts to save Gerry’s life is equal to zero, a new screen will be displayed informing the user that snowman Gerry has melted. At this stage, the user has the option to start the game again by pressing the **Y** key or exit the main menu by pressing the **N** key.
 
-  ![Game over word not guessed](docs/screenshots/game_over_word_not_guessed_message.PNG)
+  ![Game over word not guessed](docs/screenshots/game_over_word_not_guessed_message.png)
 - If any other option than **Y** or **N** is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
 
-  ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
+  ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.png)
 - If the word is guessed correctly, a congratulations message is displayed on the screen. The user has the option to play the game again or exit to the main menu.
 
-  ![Game over word guessed correctly](docs/screenshots/game_over_word_guessed_message.PNG)
+  ![Game over word guessed correctly](docs/screenshots/game_over_word_guessed_message.png)
 - If any other option than **Y** or **N** is selected by the user, the following screen will be displayed to inform the user to choose the correct option.
 
-  ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.PNG)
+  ![Game over invalid choice](docs/screenshots/game_over_invalid_choice.png)
 
 [Back to Top](#table-of-contents)
 
@@ -248,7 +248,7 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 - If the user hits the **E** key while in the main menu, the game will be terminated and the game exit screen will be displayed.
 
-  ![Exit game](docs/screenshots/exit_game_message.PNG)
+  ![Exit game](docs/screenshots/exit_game_message.png)
 
 [Back to Top](#table-of-contents)
 
@@ -298,11 +298,11 @@ The code has been tested using [PEP8 Online](http://pep8online.com/)
 
 - Initial Validator Testing
 
-  ![Initial Validator Testing](docs/screenshots/initial_validator_testing.PNG)
+  ![Initial Validator Testing](docs/screenshots/initial_validator_testing.png)
 
 - Final Validator Testing
 
-  ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.PNG)
+  ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.png)
 
 [Back to Top](#table-of-contents)
 
