@@ -295,29 +295,29 @@ Creating a flowchart helped me find less obvious features of the program's algor
 
 The code has been tested using [PEP8 Online](http://pep8online.com/)
 
-- Initial Validator Testing - six warnings and one error were presented.
+- Initial run.py validator testing - six warnings and one error were presented.
 
-  ![Initial Validator Testing](docs/screenshots/initial_validator_testing.png)
+  ![Initial run.py validator testing](docs/screenshots/initial_validator_testing.png)
 
-- Final Validator Testing - all issues fixed.
+- Final run.py validator testing - all issues fixed.
 
-  ![Final Validator Testing](docs/screenshots/final_validator_testing_errors_fixed.png)
+  ![Final run.py validator testing](docs/screenshots/final_validator_testing_errors_fixed.png)
 
-- Initial Artwork Validator Testing - 7 warnings were presented.
+- Initial artwork.py validator testing - 7 warnings were presented.
 
-  ![Initial Artwork Validator Testing](docs/screenshots/initial_artwork_validator_testing.png)
+  ![Initial artwork.py validator testing](docs/screenshots/initial_artwork_validator_testing.png)
 
-- Final Artwork Validator Testing - all issues fixed.
+- Final artwork.py validator testing - all issues fixed.
 
-  ![Final Artwork Validator Testing](docs/screenshots/final_artwork_validator_testing.png)
+  ![Final artwork.py validator testing](docs/screenshots/final_artwork_validator_testing.png)
 
-- Initial Categories Validator Testing - 1 warninig was presented.
+- Initial categories.py validator testing - 1 warninig was presented.
 
-  ![Initial Categories Validator Testing](docs/screenshots/initial_categories_validator_testing.png)
+  ![Initial categories.py validator testing](docs/screenshots/initial_categories_validator_testing.png)
 
-- Final Categories Validator Testing - all issues fixed.
+- Final categories.py validator testing - all issues fixed.
 
-  ![Final Categories Validator Testing](docs/screenshots/final_categories_validator_testing.png)
+  ![Final categories.py validator testing](docs/screenshots/final_categories_validator_testing.png)
 
 [Back to Top](#table-of-contents)
 
