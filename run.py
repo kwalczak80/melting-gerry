@@ -280,7 +280,7 @@ def play_game(word):
         letter = input("Please enter a "
                        "letter:\n".center(width)).upper().strip()
         clear_header()
-        # If none or more than one character was entered display an error message
+        # If none or more than one character was entered display an error
         if len(letter) != 1:
             print_error_message("Please enter only "
                                 "one letter at a time".center(width))
@@ -291,6 +291,7 @@ def play_game(word):
         elif not letter.isalpha():
             print_error_message(f"[{letter}] is not a letter".center(width))
         else:
+            # Add guessed letter to the table
             used_letters.append(letter)
             if letter in word:
                 print_correct_guess("YES !!! You have guessed "
