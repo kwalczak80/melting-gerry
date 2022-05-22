@@ -127,7 +127,7 @@ def get_player_name():
             print_error_message("The player's name may only "
                                 "contain alphabetic "
                                 "characters.\n".center(width))
-        elif (len(player_name) > 20):
+        elif len(player_name) > 20:
             clear_header()
             print_error_message("The player's name is too long "
                                 "- max 20 characters !!\n".center(width))
