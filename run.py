@@ -184,6 +184,7 @@ def word_category_selection():
         print_text_in_the_middle_of_console("5. Colors\n")
         player_choice = input("Alternatively, press E "
                               "to exit\n".center(width)).upper()
+        # Randomly select a word from a chosen category
         if player_choice == '1':
             word = str(animal_words[random.randint(0, len(animal_words) - 1)])
             clear_header()
@@ -208,6 +209,7 @@ def word_category_selection():
         elif player_choice == "E":
             menu(player_name)
         else:
+            # Ask to enter a valid option
             clear_header()
             print_error_message("Please choose a valid option "
                                 "from the menu below !\n".center(width))
@@ -260,8 +262,10 @@ def play_game(word):
     after category selection
     '''
     table = list(word)
+    # Empty table to store letters used when guessing the word
     used_letters = []
     number_of_attempts = 6
+    # Loop and display "_" for each letter in the word
     for i in range(len(word)):
         table[i] = "_"
     while number_of_attempts > 0:
@@ -276,12 +280,14 @@ def play_game(word):
         letter = input("Please enter a "
                        "letter:\n".center(width)).upper().strip()
         clear_header()
+        # If none or more than one character was entered display an error message
         if len(letter) != 1:
             print_error_message("Please enter only "
                                 "one letter at a time".center(width))
         elif letter in used_letters:
             print_error_message(f"[{letter}] letter "
                                 "is already used !!".center(width))
+        # If a number was entered display an error message
         elif not letter.isalpha():
             print_error_message(f"[{letter}] is not a letter".center(width))
         else:
@@ -296,6 +302,7 @@ def play_game(word):
                 number_of_attempts -= 1
                 print_incorrect_guess(f"[{letter}] letter is "
                                       "not in the word".center(width))
+        # If the word was guessed, display a congratulations message
         if "".join(map(str, table)) == word:
             clear_header()
             print_correct_guess("Fantastic !!! You have guessed "
@@ -303,6 +310,7 @@ def play_game(word):
             print_correct_guess("Gerry the snowman is safe "
                                 "thanks to you.\n".center(width))
             restart_game(player_name)
+        # If the word was not guessed, display a message
         elif number_of_attempts == 0:
             clear_screen()
             print_text_in_the_middle_of_console(display_snowman[0])
