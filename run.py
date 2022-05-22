@@ -89,7 +89,7 @@ def print_error_message(text):
 def print_correct_guess(correct_guess_text):
     """
     Function to print text in green color
-    is user guessed the letter or word correctly
+    if user guessed the letter or word correctly
     """
     print(f"{TextColor.GREEN}{correct_guess_text}{TextColor.ENDC}")
 
@@ -97,7 +97,7 @@ def print_correct_guess(correct_guess_text):
 def print_incorrect_guess(incorrect_guess_text):
     """
     Function to print text in yellow color
-    is user guessed the letter or word incorrectly
+    if user guessed the letter incorrectly
     """
     print(f"{TextColor.YELLOW}{incorrect_guess_text}{TextColor.ENDC}")
 
